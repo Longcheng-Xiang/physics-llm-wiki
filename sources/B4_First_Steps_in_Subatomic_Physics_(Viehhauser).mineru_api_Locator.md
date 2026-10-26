@@ -1,0 +1,307 @@
+# Source Locator: B4 First Steps in Subatomic Physics (Viehhauser)
+
+**Primary Markdown:** `sources/B4_First_Steps_in_Subatomic_Physics_(Viehhauser).mineru_api.md`
+**Source PDF:** `lecture_notes_pdf/B4_First_Steps_in_Subatomic_Physics_(Viehhauser).pdf`
+**Optional user notes:** `<USER_TUTORIAL_ORDER_NOTES>`, `<USER_TUTORIAL_NOTES>` (not included; opt-in note-layer rules still apply)
+
+## How To Use
+
+1. Start from the relevant source map or physics topic.
+2. Use the quick routing and heading index below to jump to the exact Markdown line range for the matching heading run.
+3. If separately supplied, read the optional user notes in parallel when you need ordering, shorthand decoding, or a cleaner derivation than the slide text alone provides.
+4. Reopen the live PDF only for layout-dependent figures or if the Markdown extraction is locally unclear.
+
+## Quick Routing
+
+Major heading runs. Consecutive duplicate slide titles are collapsed into a single line-range entry.
+
+- `md 1-8` | B4 First Steps in Subatomic Physics (Viehhauser) — MinerU Precision API Markdown
+- `md 11-14` | First steps in Subatomic Physics
+- `md 15-16` | Contents
+- `md 17-18` | Introduction vi
+- `md 19-20` | Syllabus viii
+- `md 31-92` | Scattering theory
+- `md 93-144` | Nuclear Physics 40
+- `md 145-242` | Particle Physics 72
+- `md 243-256` | Introduction
+- `md 257-258` | Syllabus
+- `md 259-268` | B4 – Nuclear and Particle Physics
+- `md 273-288` | Scattering theory
+- `md 289-308` | Nuclear physics
+- `md 309-318` | Particle Physics
+- `md 319-350` | Useful links
+- `md 353-354` | Scattering theory
+- `md 355-435` | Introduction
+- `md 436-439` | Classical scattering theory
+- `md 440-509` | Scattering on a hard ball
+- `md 510-643` | Classical Coulomb scattering
+- `md 644-651` | Cross-section revisited
+- `md 652-667` | Key lessons:
+- `md 668-692` | Quantum mechanical scattering
+- `md 693-715` | Initial and final states in quantum mechanical scattering
+- `md 716-869` | Time-dependent perturbation theory and the scattering problem
+- `md 890-941` | Solving the scattering problem using Fermi’s Golden Rule
+- `md 942-995` | \*Higher order perturbation theory
+- `md 996-1025` | \*More on propagators
+- `md 1026-1079` | Validity of first order perturbation theory
+- `md 1080-1120` | Key lessons:
+- `md 1121-1122` | Application of first-order scattering theory
+- `md 1123-1140` | Scattering on a central potential
+- `md 1141-1212` | The Yukawa potential
+- `md 1213-1333` | Virtual exchange particles
+- `md 1334-1349` | The form factor
+- `md 1459-1500` | Key lessons:
+- `md 1501-1564` | Natural units
+- `md 1565-1645` | Feynman diagrams and their (simplified) evaluation
+- `md 1646-1733` | Feynman graph topologies
+- `md 1734-1917` | Relativistic scattering kinematics
+- `md 2058-2074` | Key lessons:
+- `md 2075-2078` | Resonances
+- `md 2079-2175` | Decays
+- `md 2176-2379` | Resonant scattering
+- `md 2380-2398` | Key lessons:
+- `md 2399-2400` | Nuclear Physics
+- `md 2401-2460` | The size of the nucleus
+- `md 2559-2584` | Nuclear constituents - the nucleons
+- `md 2585-2655` | Nuclear interaction
+- `md 2656-2671` | Nuclear models
+- `md 2672-2685` | Nuclear reactions
+- `md 2686-2750` | Neutron scattering
+- `md 2751-2829` | The mass of the nucleus
+- `md 2830-2865` | Asymmetry term
+- `md 2866-2892` | Pairing term
+- `md 2893-2937` | Parameters in the semi-empirical mass formula
+- `md 2940-2967` | Nuclei in the N /Z plane
+- `md 2968-2987` | Key lessons:
+- `md 2988-3009` | Maximizing the binding energy per nucleon
+- `md 3010-3226` | Alpha decay
+- `md 3227-3342` | Fission
+- `md 3343-3388` | Fission products
+- `md 3389-3443` | Moderation
+- `md 3444-3489` | Fusion
+- `md 3490-3537` | Fusion in stars
+- `md 3540-3565` | Key lessons:
+- `md 3566-3613` | Beta decay
+- `md 3614-3834` | Fermi theory of neutron decay
+- `md 3835-4335` | Nuclear beta decay
+- `md 4336-4357` | $\beta ^ { + }$ decay and electron capture
+- `md 4358-4390` | Stability under beta decay
+- `md 4391-4396` | \*Gamma decay
+- `md 4397-4463` | \*Radioactive decay chains
+- `md 4466-4474` | Key lessons:
+- `md 4475-4476` | Particle Physics
+- `md 4477-4645` | Limits of Fermi theory
+- `md 4646-4748` | Weak interaction as exchange interaction
+- `md 4749-4772` | The range of the weak interaction and bound states
+- `md 4773-4867` | More exchange weirdness
+- `md 4868-4892` | Isospin
+- `md 4893-4952` | Isospin symmetry and conservation
+- `md 4953-4967` | he angles, This was accomplished ing the recOther symmetries and related conservation laws
+- `md 4980-5057` | Mirror symmetries
+- `md 5058-5112` | Conservation of parity
+- `md 5113-5124` | Intrinsic parity
+- `md 5125-5168` | Examples
+- `md 5169-5206` | Charge conjugation
+- `md 5207-5222` | Examples:
+- `md 5223-5333` | Parity violation
+- `md 5334-5360` | Key lessons:
+- `md 5361-5388` | Taking stock
+- `md 5389-5416` | Strangeness
+- `md 5417-5518` | Meson multiplets
+- `md 5521-5604` | Baryon multiplets
+- `md 5605-5631` | The quark model
+- `md 5632-5707` | Mesons in the quark model
+- `md 5708-5755` | Meson decays
+- `md 5756-5793` | Baryons in the quark model
+- `md 5794-5819` | 3. Ψflavour
+- `md 5820-5877` | Colour
+- `md 5878-5917` | Quark flow diagrams
+- `md 5918-5953` | More on the strong force
+- `md 5954-6085` | Strong force field lines and long range behaviour
+- `md 6136-6168` | Short range behaviour
+- `md 6169-6273` | \*Coupling constants
+- `md 6274-6291` | Nuclear force revisited
+- `md 6292-6309` | Key lessons:
+- `md 6312-6367` | More quarks: charm and beauty
+- `md 6368-6519` | Quarkonia
+- `md 6538-6633` | \*Extending flavour SU(3)
+- `md 6634-6647` | The sixth quark: top
+- `md 6648-6675` | Quark masses
+- `md 6676-6726` | Dynamic quark model
+- `md 6727-6735` | Key lessons:
+- `md 6736-6770` | Leptons in the standard model
+- `md 6771-6788` | Weak force revisited
+- `md 6807-6852` | Leptonic processes and lepton universality
+- `md 6853-6908` | Flavour mixing
+- `md 6909-7022` | \*Neutrino oscillations
+- `md 7023-7059` | The weak coupling constant
+- `md 7062-7117` | Direct studies of W and Z
+- `md 7118-7165` | Cross-sections for W and Z observation
+- `md 7166-7207` | Z -lineshape and the number of neutrinos
+- `md 7208-7215` | Key lessons:
+- `md 7216-7247` | \*The Higgs mechanism
+- `md 7557-8099` | Index
+
+## Heading Index
+
+- level `h1` | md `1-8` | B4 First Steps in Subatomic Physics (Viehhauser) — MinerU Precision API Markdown
+- level `h2` | md `9-10` | Chunk: pages 001-010
+- level `h1` | md `11-14` | First steps in Subatomic Physics
+- level `h1` | md `15-16` | Contents
+- level `h1` | md `17-18` | Introduction vi
+- level `h1` | md `19-20` | Syllabus viii
+- level `h1` | md `31-92` | Scattering theory
+- level `h1` | md `93-144` | Nuclear Physics 40
+- level `h1` | md `145-242` | Particle Physics 72
+- level `h1` | md `243-256` | Introduction
+- level `h1` | md `257-258` | Syllabus
+- level `h1` | md `259-268` | B4 – Nuclear and Particle Physics
+- level `h1` | md `273-288` | Scattering theory
+- level `h1` | md `289-308` | Nuclear physics
+- level `h1` | md `309-318` | Particle Physics
+- level `h1` | md `319-350` | Useful links
+- level `h2` | md `351-352` | Chunk: pages 011-020
+- level `h1` | md `353-354` | Scattering theory
+- level `h1` | md `355-435` | Introduction
+- level `h1` | md `436-439` | Classical scattering theory
+- level `h1` | md `440-509` | Scattering on a hard ball
+- level `h1` | md `510-643` | Classical Coulomb scattering
+- level `h1` | md `644-651` | Cross-section revisited
+- level `h1` | md `652-667` | Key lessons:
+- level `h1` | md `668-692` | Quantum mechanical scattering
+- level `h1` | md `693-715` | Initial and final states in quantum mechanical scattering
+- level `h1` | md `716-869` | Time-dependent perturbation theory and the scattering problem
+- level `h2` | md `870-889` | Chunk: pages 021-030
+- level `h1` | md `890-941` | Solving the scattering problem using Fermi’s Golden Rule
+- level `h1` | md `942-995` | \*Higher order perturbation theory
+- level `h1` | md `996-1025` | \*More on propagators
+- level `h1` | md `1026-1079` | Validity of first order perturbation theory
+- level `h1` | md `1080-1120` | Key lessons:
+- level `h1` | md `1121-1122` | Application of first-order scattering theory
+- level `h1` | md `1123-1140` | Scattering on a central potential
+- level `h1` | md `1141-1212` | The Yukawa potential
+- level `h1` | md `1213-1333` | Virtual exchange particles
+- level `h1` | md `1334-1349` | The form factor
+- level `h2` | md `1350-1458` | Chunk: pages 031-040
+- level `h1` | md `1459-1500` | Key lessons:
+- level `h1` | md `1501-1564` | Natural units
+- level `h1` | md `1565-1645` | Feynman diagrams and their (simplified) evaluation
+- level `h1` | md `1646-1733` | Feynman graph topologies
+- level `h1` | md `1734-1917` | Relativistic scattering kinematics
+- level `h2` | md `1918-2057` | Chunk: pages 041-050
+- level `h1` | md `2058-2074` | Key lessons:
+- level `h1` | md `2075-2078` | Resonances
+- level `h1` | md `2079-2175` | Decays
+- level `h1` | md `2176-2379` | Resonant scattering
+- level `h1` | md `2380-2398` | Key lessons:
+- level `h1` | md `2399-2400` | Nuclear Physics
+- level `h1` | md `2401-2460` | The size of the nucleus
+- level `h2` | md `2461-2558` | Chunk: pages 051-060
+- level `h1` | md `2559-2584` | Nuclear constituents - the nucleons
+- level `h1` | md `2585-2655` | Nuclear interaction
+- level `h1` | md `2656-2671` | Nuclear models
+- level `h1` | md `2672-2685` | Nuclear reactions
+- level `h1` | md `2686-2750` | Neutron scattering
+- level `h1` | md `2751-2829` | The mass of the nucleus
+- level `h1` | md `2830-2865` | Asymmetry term
+- level `h1` | md `2866-2892` | Pairing term
+- level `h1` | md `2893-2937` | Parameters in the semi-empirical mass formula
+- level `h2` | md `2938-2939` | Chunk: pages 061-070
+- level `h1` | md `2940-2967` | Nuclei in the N /Z plane
+- level `h1` | md `2968-2987` | Key lessons:
+- level `h1` | md `2988-3009` | Maximizing the binding energy per nucleon
+- level `h1` | md `3010-3226` | Alpha decay
+- level `h1` | md `3227-3342` | Fission
+- level `h1` | md `3343-3388` | Fission products
+- level `h1` | md `3389-3443` | Moderation
+- level `h1` | md `3444-3489` | Fusion
+- level `h1` | md `3490-3537` | Fusion in stars
+- level `h2` | md `3538-3539` | Chunk: pages 071-080
+- level `h1` | md `3540-3565` | Key lessons:
+- level `h1` | md `3566-3613` | Beta decay
+- level `h1` | md `3614-3834` | Fermi theory of neutron decay
+- level `h1` | md `3835-4335` | Nuclear beta decay
+- level `h1` | md `4336-4357` | $\beta ^ { + }$ decay and electron capture
+- level `h1` | md `4358-4390` | Stability under beta decay
+- level `h1` | md `4391-4396` | \*Gamma decay
+- level `h1` | md `4397-4463` | \*Radioactive decay chains
+- level `h2` | md `4464-4465` | Chunk: pages 081-090
+- level `h1` | md `4466-4474` | Key lessons:
+- level `h1` | md `4475-4476` | Particle Physics
+- level `h1` | md `4477-4645` | Limits of Fermi theory
+- level `h1` | md `4646-4748` | Weak interaction as exchange interaction
+- level `h1` | md `4749-4772` | The range of the weak interaction and bound states
+- level `h1` | md `4773-4867` | More exchange weirdness
+- level `h1` | md `4868-4892` | Isospin
+- level `h1` | md `4893-4952` | Isospin symmetry and conservation
+- level `h1` | md `4953-4967` | he angles, This was accomplished ing the recOther symmetries and related conservation laws
+- level `h2` | md `4968-4979` | Chunk: pages 091-100
+- level `h1` | md `4980-5057` | Mirror symmetries
+- level `h1` | md `5058-5112` | Conservation of parity
+- level `h1` | md `5113-5124` | Intrinsic parity
+- level `h1` | md `5125-5168` | Examples
+- level `h1` | md `5169-5206` | Charge conjugation
+- level `h1` | md `5207-5222` | Examples:
+- level `h1` | md `5223-5333` | Parity violation
+- level `h1` | md `5334-5360` | Key lessons:
+- level `h1` | md `5361-5388` | Taking stock
+- level `h1` | md `5389-5416` | Strangeness
+- level `h1` | md `5417-5518` | Meson multiplets
+- level `h2` | md `5519-5520` | Chunk: pages 101-110
+- level `h1` | md `5521-5604` | Baryon multiplets
+- level `h1` | md `5605-5631` | The quark model
+- level `h1` | md `5632-5707` | Mesons in the quark model
+- level `h1` | md `5708-5755` | Meson decays
+- level `h1` | md `5756-5793` | Baryons in the quark model
+- level `h1` | md `5794-5819` | 3. Ψflavour
+- level `h1` | md `5820-5877` | Colour
+- level `h1` | md `5878-5917` | Quark flow diagrams
+- level `h1` | md `5918-5953` | More on the strong force
+- level `h1` | md `5954-6085` | Strong force field lines and long range behaviour
+- level `h2` | md `6086-6135` | Chunk: pages 111-115
+- level `h1` | md `6136-6168` | Short range behaviour
+- level `h1` | md `6169-6273` | \*Coupling constants
+- level `h1` | md `6274-6291` | Nuclear force revisited
+- level `h1` | md `6292-6309` | Key lessons:
+- level `h2` | md `6310-6311` | Chunk: pages 116-120
+- level `h1` | md `6312-6367` | More quarks: charm and beauty
+- level `h1` | md `6368-6519` | Quarkonia
+- level `h2` | md `6520-6537` | Chunk: pages 121-125
+- level `h1` | md `6538-6633` | \*Extending flavour SU(3)
+- level `h1` | md `6634-6647` | The sixth quark: top
+- level `h1` | md `6648-6675` | Quark masses
+- level `h1` | md `6676-6726` | Dynamic quark model
+- level `h1` | md `6727-6735` | Key lessons:
+- level `h1` | md `6736-6770` | Leptons in the standard model
+- level `h1` | md `6771-6788` | Weak force revisited
+- level `h2` | md `6789-6806` | Chunk: pages 126-130
+- level `h1` | md `6807-6852` | Leptonic processes and lepton universality
+- level `h1` | md `6853-6908` | Flavour mixing
+- level `h1` | md `6909-7022` | \*Neutrino oscillations
+- level `h1` | md `7023-7059` | The weak coupling constant
+- level `h2` | md `7060-7061` | Chunk: pages 131-135
+- level `h1` | md `7062-7117` | Direct studies of W and Z
+- level `h1` | md `7118-7165` | Cross-sections for W and Z observation
+- level `h1` | md `7166-7207` | Z -lineshape and the number of neutrinos
+- level `h1` | md `7208-7215` | Key lessons:
+- level `h1` | md `7216-7247` | \*The Higgs mechanism
+- level `h2` | md `7248-7531` | Chunk: pages 136-140
+- level `h2` | md `7532-7556` | Chunk: pages 141-145
+- level `h1` | md `7557-8099` | Index
+
+## Build Report
+
+- Markdown line count: 8099
+- Raw heading lines found: 146
+- Effective headings after split-heading joins: 146
+- Split heading joins applied: 0
+- Consecutive duplicate headings collapsed: 0
+- Heading runs retained in this locator: 144
+- Page markers found: 0
+
+## Agent Notes
+
+- This locator is Markdown-line-based rather than TeX-line-based.
+- Consecutive repeated slide titles are collapsed into single locator runs so slide decks do not drown retrieval in duplicate headings.
+- Adjacent heading fragments are joined when the second line is clearly a continuation of the first, which helps with slide titles split across multiple heading lines.
+- Regenerate this file with `python3 tools/build_markdown_locator.py 'sources/B4_First_Steps_in_Subatomic_Physics_(Viehhauser).mineru_api.md'` after future source updates.

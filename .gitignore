@@ -1,0 +1,77 @@
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# Editor and local workspace state
+.idea/
+.vscode/
+.cursor/
+.codex/
+*.swp
+*.swo
+*~
+.obsidian/
+.claude/settings.local.json
+.trash/
+.playwright-cli/
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Python environments, bytecode, tests, and coverage
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+coverage.xml
+htmlcov/
+
+# JavaScript dependencies and generated frontend output
+node_modules/
+dist/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# General build, temporary, and diagnostic output
+build/
+out/
+tmp/
+temp/
+*.tmp
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Source documents supplied locally by users
+*.pdf
+lecture_notes_pdf/*
+!lecture_notes_pdf/.gitignore
+sources/*.defaultmethod.tex
+sources/*.mineru_api.md
+sources/*.mineru_api_assets/
+questions_and_answers/exam_questions_raw/*
+!questions_and_answers/exam_questions_raw/.gitignore
+
+# Local backup contents
+backups/*
+!backups/.gitignore

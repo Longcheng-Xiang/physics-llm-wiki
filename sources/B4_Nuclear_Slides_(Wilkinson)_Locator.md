@@ -1,0 +1,343 @@
+# Source Locator: B4 Nuclear Slides (Wilkinson)
+
+**Primary Markdown:** `sources/B4_Nuclear_Slides_(Wilkinson).mineru_api.md`
+**Source PDF:** `lecture_notes_pdf/B4_Nuclear_Slides_(Wilkinson).pdf`
+**Optional user notes:** `<USER_TUTORIAL_ORDER_NOTES>` (default user-note layer), `<USER_TUTORIAL_NOTES>` (opt-in only; neither is included)
+
+## How To Use
+
+1. Start from the relevant source map or physics topic.
+2. Use the quick routing and heading index below to jump to the exact Markdown line range for the matching slide-title run.
+3. If separately supplied, use `<USER_TUTORIAL_ORDER_NOTES>` as the default user-note layer. Use `<USER_TUTORIAL_NOTES>` only when the user explicitly includes tutorials.
+4. Reopen the live PDF only for layout-dependent figures or if the Markdown extraction is locally unclear.
+
+## Quick Routing
+
+Major heading runs. Consecutive duplicate slide titles are collapsed into a single line-range entry.
+
+- `md 1-8` | Nuclear and particle physics
+- `md 9-10` | Syllabus and order of course
+- `md 11-36` | From the course handbook: B4 Nuclear and Particle Physics
+- `md 37-38` | Syllabus and order of course
+- `md 39-64` | From the course handbook: B4 Nuclear and Particle Physics
+- `md 65-66` | Syllabus and order of course
+- `md 67-92` | From the course handbook: B4 Nuclear and Particle Physics
+- `md 93-94` | Syllabus and order of course
+- `md 95-120` | From the course handbook: B4 Nuclear and Particle Physics
+- `md 125-156` | B4 Nuclear and Particle Physics
+- `md 157-168` | Lectures and course material
+- `md 169-170` | Nuclear physics
+- `md 171-194` | Dawn of nuclear physics
+- `md 195-196` | Nobel Prizes in Physics for subatomic discoveries: pre (& during) WWII
+- `md 197-202` | The Nobel Prize in Physics 1903
+- `md 203-206` | The Nobel Prize in Physics 1905
+- `md 207-210` | The Nobel Prize in Physics 1923
+- `md 211-214` | The Nobel Prize in Physics 1922
+- `md 215-220` | The Nobel Prize in Physics 1927
+- `md 221-224` | The Nobel Prize in Physics 1929
+- `md 225-228` | The Nobel Prize in Physics 1933
+- `md 229-232` | The Nobel Prize in Physics 1932
+- `md 233-238` | The Nobel Prize in Physics 1936
+- `md 239-242` | The Nobel Prize in Physics 1935
+- `md 243-246` | The Nobel Prize in Physics 1939
+- `md 247-250` | The Nobel Prize in Physics 1938
+- `md 251-254` | The Nobel Prize in Physics 1945
+- `md 255-258` | The Nobel Prize in Physics 1944
+- `md 259-262` | The Nobel Prize in Physics 1943
+- `md 263-264` | Nobel Prizes in Physics for subatomic discoveries: 1951→1975
+- `md 265-268` | The Nobel Prize in Physics 1951
+- `md 269-272` | The Nobel Prize in Physics 1950
+- `md 273-276` | The Nobel Prize in Physics 1949
+- `md 277-280` | The Nobel Prize in Physics 1948
+- `md 281-286` | The Nobel Prize in Physics 1955
+- `md 287-292` | The Nobel Prize in Physics 1954
+- `md 293-296` | The Nobel Prize in Physics 1969
+- `md 297-300` | The Nobel Prize in Physics 1968
+- `md 301-304` | The Nobel Prize in Physics 1967
+- `md 305-308` | The Nobel Prize in Physics 1965
+- `md 309-314` | The Nobel Prize in Physics 1961
+- `md 315-318` | The Nobel Prize in Physics 1960
+- `md 319-322` | The Nobel Prize in Physics 1959
+- `md 323-326` | The Nobel Prize in Physics 1958
+- `md 327-330` | The Nobel Prize in Physics 1957
+- `md 331-336` | The Nobel Prize in Physics 1963
+- `md 337-340` | The Nobel Prize in Physics 1976
+- `md 341-344` | The Nobel Prize in Physics 1975
+- `md 345-346` | Nobel Prizes in Physics for subatomic discoveries: 1979→
+- `md 347-350` | The Nobel Prize in Physics 1980
+- `md 351-354` | The Nobel Prize in Physics 1979
+- `md 355-358` | The Nobel Prize in Physics 1984
+- `md 359-362` | The Nobel Prize in Physics 1988
+- `md 363-366` | The Nobel Prize in Physics 1990
+- `md 367-370` | The Nobel Prize in Physics 1992
+- `md 371-374` | The Nobel Prize in Physics 2015
+- `md 375-382` | The Nobel Prize in Physics 1995
+- `md 383-386` | The Nobel Prize in Physics 1999
+- `md 387-392` | The Nobel Prize in Physics 2002
+- `md 393-396` | The Nobel Prize in Physics 2004
+- `md 397-402` | The Nobel Prize in Physics 2008
+- `md 403-406` | The Nobel Prize in Physics 2013
+- `md 407-408` | Nobel Prizes in Physics for subatomic discoveries: 1979→
+- `md 409-412` | The Nobel Prize in Physics 1980
+- `md 413-414` | The Nobel Prize in Physics 1979
+- `md 415-424` | The Nobel Prize in Physics 1995
+- `md 425-428` | The Nobel
+- `md 429-432` | The Nobel F
+- `md 433-454` | The Nobel P
+- `md 455-458` | The Nobel Prize in Physics 1992
+- `md 459-466` | The Nobel Prize in Physics 2015
+- `md 467-470` | The Nobel Prize in Physics 2013
+- `md 471-497` | Nuclear physics: topic overview
+- `md 498-509` | Nuclear physics: initial definitions
+- `md 510-521` | How many nuclides? How stable?
+- `md 522-529` | Segrè chart
+- `md 530-561` | Nuclear masses and binding energy
+- `md 562-578` | Nuclear binding energy
+- `md 579-594` | Nuclear size
+- `md 595-617` | Spin, parity and excited states
+- `md 618-641` | The semi-empirical mass formula (SEMF)
+- `md 642-687` | Towards the semi-empirical mass formula (SEMF): the liquid-drop model
+- `md 688-717` | Towards the SEMF: the Coulomb term
+- `md 718-838` | Towards the SEMF: the asymmetry term
+- `md 839-864` | Completing the SEMF: the pairing term
+- `md 865-894` | Cross checks: mirror nuclei
+- `md 895-900` | SEMF: a strange beast
+- `md 901-920` | SEMF: so how well does it do?
+- `md 921-959` | Deficiencies of the SEMF
+- `md 960-988` | What’s really going on? The true nature of the nuclear interaction
+- `md 989-1025` | The nuclear interaction as an exchange force
+- `md 1026-1049` | Discovery of the primary exchange particle: the pion
+- `md 1050-1064` | Nuclear physics: topic overview
+- `md 1065-1098` | Nuclear decay and radioactivity
+- `md 1099-1116` | • Gamma decay (not on syllabus)
+- `md 1117-1139` | Nuclear decay and radioactivity
+- `md 1140-1163` | Radioactive decay law
+- `md 1164-1167` | Studying radioactive decay
+- `md 1168-1171` | Curie
+- `md 1172-1178` | Bequerel
+- `md 1179-1186` | α and β decays as transmutations in the Segrè chart
+- `md 1187-1192` | Radioactive decay chains
+- `md 1193-1212` | Alpha decay: initial observations
+- `md 1213-1296` | Alpha decay: a quantum-mechanical model
+- `md 1297-1312` | Alpha decay: theory confronting data
+- `md 1313-1363` | Angular-momentum barrier
+- `md 1364-1378` | Beta decay: initial observations
+- `md 1379-1419` | Beta decay: historical perspective
+- `md 1420-1452` | Stability against beta decay
+- `md 1453-1466` | ?? ??+1 ??Something to watch out for: nuclear or atomic mass ?
+- `md 1467-1516` | Stability against beta decay: simple cases
+- `md 1517-1573` | Stability against beta decay: beryllium
+- `md 1574-1597` | Mass parabolae: odd-A isobars
+- `md 1598-1610` | Mass parabolae: even-A isobars
+- `md 1611-1626` | Double beta decay
+- `md 1627-1643` | Fermi theory of beta decay
+- `md 1644-1699` | Four-point interaction
+- `md 1700-1782` | Calculating decay rates in Fermi theory
+- `md 1783-1808` | Kurie plot
+- `md 1809-1823` | Kurie plot and neutrino mass
+- `md 1824-1845` | Sargent’s rule
+- `md 1846-1853` | Sargent’s rule – validation from measurement
+- `md 1854-1869` | Additional enhancement / suppression effects
+- `md 1870-1883` | Nuclear physics: topic overview
+- `md 1884-1890` | Fission and fusion
+- `md 1891-1972` | Spontaneous fission
+- `md 1973-2038` | Induced fission
+- `md 2039-2077` | Neutron-absorption cross sections for uranium
+- `md 2078-2103` | Fission products
+- `md 2104-2105` | delayed neutrons / # prompt neutrons ~ 10−2, but very important for reactor control.
+- `md 2106-2145` | Fission products: energy release
+- `md 2146-2179` | Moderation and enrichment
+- `md 2180-2215` | Chain reactions and reactor control
+- `md 2216-2237` | History of fission: discovery
+- `md 2238-2250` | History of fission: chain reactions
+- `md 2251-2289` | History of fission: the Einstein-Szilard letter
+- `md 2290-2312` | History of fission: the first nuclear reactor
+- `md 2313-2316` | History of fission: the bomb
+- `md 2317-2330` | Hiroshima bomb (‘Little Boy’)
+- `md 2331-2341` | Nagasaki bomb (‘Fat Man’)
+- `md 2342-2357` | Fusion reactions
+- `md 2358-2443` | Fusion cross section
+- `md 2444-2483` | Gamow peak
+- `md 2484-2487` | Controlled fusion: confinement
+- `md 2488-2511` | Inertial confinement
+- `md 2512-2521` | Magnetic confinement
+- `md 2522-2539` | Controlled fusion: confinement
+- `md 2540-2547` | The thermonuclear (‘H’) bomb
+- `md 2548-2560` | Teller-Ulam configuration
+- `md 2561-2581` | Solar fusion
+- `md 2582-2627` | ???? chain
+- `md 2628-2654` | Nucleosynthesis – multiple sources
+- `md 2655-2658` | Nucleosynthesis
+
+## Heading Index
+
+- level `h1` | md `1-8` | Nuclear and particle physics
+- level `h1` | md `9-10` | Syllabus and order of course
+- level `h1` | md `11-36` | joined-heading-lines `2` | From the course handbook: B4 Nuclear and Particle Physics
+- level `h1` | md `37-38` | Syllabus and order of course
+- level `h1` | md `39-64` | joined-heading-lines `2` | From the course handbook: B4 Nuclear and Particle Physics
+- level `h1` | md `65-66` | Syllabus and order of course
+- level `h1` | md `67-92` | joined-heading-lines `2` | From the course handbook: B4 Nuclear and Particle Physics
+- level `h1` | md `93-94` | Syllabus and order of course
+- level `h1` | md `95-120` | joined-heading-lines `2` | From the course handbook: B4 Nuclear and Particle Physics
+- level `h1` | md `125-156` | B4 Nuclear and Particle Physics
+- level `h1` | md `157-168` | Lectures and course material
+- level `h1` | md `169-170` | Nuclear physics
+- level `h1` | md `171-194` | Dawn of nuclear physics
+- level `h1` | md `195-196` | Nobel Prizes in Physics for subatomic discoveries: pre (& during) WWII
+- level `h1` | md `197-202` | The Nobel Prize in Physics 1903
+- level `h1` | md `203-206` | The Nobel Prize in Physics 1905
+- level `h1` | md `207-210` | The Nobel Prize in Physics 1923
+- level `h1` | md `211-214` | The Nobel Prize in Physics 1922
+- level `h1` | md `215-220` | The Nobel Prize in Physics 1927
+- level `h1` | md `221-224` | The Nobel Prize in Physics 1929
+- level `h1` | md `225-228` | The Nobel Prize in Physics 1933
+- level `h1` | md `229-232` | The Nobel Prize in Physics 1932
+- level `h1` | md `233-238` | The Nobel Prize in Physics 1936
+- level `h1` | md `239-242` | The Nobel Prize in Physics 1935
+- level `h1` | md `243-246` | The Nobel Prize in Physics 1939
+- level `h1` | md `247-250` | The Nobel Prize in Physics 1938
+- level `h1` | md `251-254` | The Nobel Prize in Physics 1945
+- level `h1` | md `255-258` | The Nobel Prize in Physics 1944
+- level `h1` | md `259-262` | The Nobel Prize in Physics 1943
+- level `h1` | md `263-264` | Nobel Prizes in Physics for subatomic discoveries: 1951→1975
+- level `h1` | md `265-268` | The Nobel Prize in Physics 1951
+- level `h1` | md `269-272` | The Nobel Prize in Physics 1950
+- level `h1` | md `273-276` | The Nobel Prize in Physics 1949
+- level `h1` | md `277-280` | The Nobel Prize in Physics 1948
+- level `h1` | md `281-286` | The Nobel Prize in Physics 1955
+- level `h1` | md `287-292` | The Nobel Prize in Physics 1954
+- level `h1` | md `293-296` | The Nobel Prize in Physics 1969
+- level `h1` | md `297-300` | The Nobel Prize in Physics 1968
+- level `h1` | md `301-304` | The Nobel Prize in Physics 1967
+- level `h1` | md `305-308` | The Nobel Prize in Physics 1965
+- level `h1` | md `309-314` | The Nobel Prize in Physics 1961
+- level `h1` | md `315-318` | The Nobel Prize in Physics 1960
+- level `h1` | md `319-322` | The Nobel Prize in Physics 1959
+- level `h1` | md `323-326` | The Nobel Prize in Physics 1958
+- level `h1` | md `327-330` | The Nobel Prize in Physics 1957
+- level `h1` | md `331-336` | The Nobel Prize in Physics 1963
+- level `h1` | md `337-340` | The Nobel Prize in Physics 1976
+- level `h1` | md `341-344` | The Nobel Prize in Physics 1975
+- level `h1` | md `345-346` | Nobel Prizes in Physics for subatomic discoveries: 1979→
+- level `h1` | md `347-350` | The Nobel Prize in Physics 1980
+- level `h1` | md `351-354` | The Nobel Prize in Physics 1979
+- level `h1` | md `355-358` | The Nobel Prize in Physics 1984
+- level `h1` | md `359-362` | The Nobel Prize in Physics 1988
+- level `h1` | md `363-366` | The Nobel Prize in Physics 1990
+- level `h1` | md `367-370` | The Nobel Prize in Physics 1992
+- level `h1` | md `371-374` | The Nobel Prize in Physics 2015
+- level `h1` | md `375-382` | The Nobel Prize in Physics 1995
+- level `h1` | md `383-386` | The Nobel Prize in Physics 1999
+- level `h1` | md `387-392` | The Nobel Prize in Physics 2002
+- level `h1` | md `393-396` | The Nobel Prize in Physics 2004
+- level `h1` | md `397-402` | The Nobel Prize in Physics 2008
+- level `h1` | md `403-406` | The Nobel Prize in Physics 2013
+- level `h1` | md `407-408` | Nobel Prizes in Physics for subatomic discoveries: 1979→
+- level `h1` | md `409-412` | The Nobel Prize in Physics 1980
+- level `h1` | md `413-414` | The Nobel Prize in Physics 1979
+- level `h1` | md `415-424` | The Nobel Prize in Physics 1995
+- level `h1` | md `425-428` | The Nobel
+- level `h1` | md `429-432` | The Nobel F
+- level `h1` | md `433-454` | The Nobel P
+- level `h1` | md `455-458` | The Nobel Prize in Physics 1992
+- level `h1` | md `459-466` | The Nobel Prize in Physics 2015
+- level `h1` | md `467-470` | The Nobel Prize in Physics 2013
+- level `h1` | md `471-497` | repeat-run `2` | Nuclear physics: topic overview
+- level `h1` | md `498-509` | Nuclear physics: initial definitions
+- level `h1` | md `510-521` | How many nuclides? How stable?
+- level `h1` | md `522-529` | Segrè chart
+- level `h1` | md `530-561` | Nuclear masses and binding energy
+- level `h1` | md `562-578` | Nuclear binding energy
+- level `h1` | md `579-594` | Nuclear size
+- level `h1` | md `595-617` | Spin, parity and excited states
+- level `h1` | md `618-641` | The semi-empirical mass formula (SEMF)
+- level `h1` | md `642-687` | repeat-run `3` | joined-heading-lines `2` | Towards the semi-empirical mass formula (SEMF): the liquid-drop model
+- level `h1` | md `688-717` | repeat-run `2` | Towards the SEMF: the Coulomb term
+- level `h1` | md `718-838` | repeat-run `6` | Towards the SEMF: the asymmetry term
+- level `h1` | md `839-864` | Completing the SEMF: the pairing term
+- level `h1` | md `865-894` | repeat-run `2` | Cross checks: mirror nuclei
+- level `h1` | md `895-900` | SEMF: a strange beast
+- level `h1` | md `901-920` | repeat-run `2` | SEMF: so how well does it do?
+- level `h1` | md `921-959` | repeat-run `2` | Deficiencies of the SEMF
+- level `h1` | md `960-988` | repeat-run `2` | What’s really going on? The true nature of the nuclear interaction
+- level `h1` | md `989-1025` | repeat-run `2` | The nuclear interaction as an exchange force
+- level `h1` | md `1026-1049` | Discovery of the primary exchange particle: the pion
+- level `h1` | md `1050-1064` | Nuclear physics: topic overview
+- level `h1` | md `1065-1098` | repeat-run `2` | Nuclear decay and radioactivity
+- level `h1` | md `1099-1116` | • Gamma decay (not on syllabus)
+- level `h1` | md `1117-1139` | Nuclear decay and radioactivity
+- level `h1` | md `1140-1163` | Radioactive decay law
+- level `h1` | md `1164-1167` | Studying radioactive decay
+- level `h1` | md `1168-1171` | Curie
+- level `h1` | md `1172-1178` | Bequerel
+- level `h1` | md `1179-1186` | repeat-run `2` | α and β decays as transmutations in the Segrè chart
+- level `h1` | md `1187-1192` | Radioactive decay chains
+- level `h1` | md `1193-1212` | Alpha decay: initial observations
+- level `h1` | md `1213-1296` | repeat-run `4` | Alpha decay: a quantum-mechanical model
+- level `h1` | md `1297-1312` | Alpha decay: theory confronting data
+- level `h1` | md `1313-1363` | repeat-run `2` | Angular-momentum barrier
+- level `h1` | md `1364-1378` | Beta decay: initial observations
+- level `h1` | md `1379-1419` | repeat-run `2` | Beta decay: historical perspective
+- level `h1` | md `1420-1452` | repeat-run `2` | Stability against beta decay
+- level `h1` | md `1453-1466` | ?? ??+1 ??Something to watch out for: nuclear or atomic mass ?
+- level `h1` | md `1467-1516` | Stability against beta decay: simple cases
+- level `h1` | md `1517-1573` | repeat-run `3` | Stability against beta decay: beryllium
+- level `h1` | md `1574-1597` | Mass parabolae: odd-A isobars
+- level `h1` | md `1598-1610` | Mass parabolae: even-A isobars
+- level `h1` | md `1611-1626` | Double beta decay
+- level `h1` | md `1627-1643` | Fermi theory of beta decay
+- level `h1` | md `1644-1699` | repeat-run `2` | Four-point interaction
+- level `h1` | md `1700-1782` | repeat-run `3` | Calculating decay rates in Fermi theory
+- level `h1` | md `1783-1808` | Kurie plot
+- level `h1` | md `1809-1823` | Kurie plot and neutrino mass
+- level `h1` | md `1824-1845` | Sargent’s rule
+- level `h1` | md `1846-1853` | Sargent’s rule – validation from measurement
+- level `h1` | md `1854-1869` | Additional enhancement / suppression effects
+- level `h1` | md `1870-1883` | Nuclear physics: topic overview
+- level `h1` | md `1884-1890` | Fission and fusion
+- level `h1` | md `1891-1972` | repeat-run `4` | Spontaneous fission
+- level `h1` | md `1973-2038` | repeat-run `2` | Induced fission
+- level `h1` | md `2039-2077` | repeat-run `2` | Neutron-absorption cross sections for uranium
+- level `h1` | md `2078-2103` | Fission products
+- level `h1` | md `2104-2105` | delayed neutrons / # prompt neutrons ~ 10−2, but very important for reactor control.
+- level `h1` | md `2106-2145` | Fission products: energy release
+- level `h1` | md `2146-2179` | repeat-run `2` | Moderation and enrichment
+- level `h1` | md `2180-2215` | repeat-run `2` | Chain reactions and reactor control
+- level `h1` | md `2216-2237` | History of fission: discovery
+- level `h1` | md `2238-2250` | History of fission: chain reactions
+- level `h1` | md `2251-2289` | History of fission: the Einstein-Szilard letter
+- level `h1` | md `2290-2312` | History of fission: the first nuclear reactor
+- level `h1` | md `2313-2316` | History of fission: the bomb
+- level `h1` | md `2317-2330` | Hiroshima bomb (‘Little Boy’)
+- level `h1` | md `2331-2341` | Nagasaki bomb (‘Fat Man’)
+- level `h1` | md `2342-2357` | Fusion reactions
+- level `h1` | md `2358-2443` | repeat-run `3` | Fusion cross section
+- level `h1` | md `2444-2483` | repeat-run `2` | Gamow peak
+- level `h1` | md `2484-2487` | Controlled fusion: confinement
+- level `h1` | md `2488-2511` | Inertial confinement
+- level `h1` | md `2512-2521` | Magnetic confinement
+- level `h1` | md `2522-2539` | Controlled fusion: confinement
+- level `h1` | md `2540-2547` | The thermonuclear (‘H’) bomb
+- level `h1` | md `2548-2560` | Teller-Ulam configuration
+- level `h1` | md `2561-2581` | Solar fusion
+- level `h1` | md `2582-2627` | repeat-run `2` | ???? chain
+- level `h1` | md `2628-2654` | repeat-run `2` | Nucleosynthesis – multiple sources
+- level `h1` | md `2655-2658` | Nucleosynthesis
+
+## Build Report
+
+- Markdown line count: 2658
+- Raw heading lines found: 198
+- Effective headings after split-heading joins: 193
+- Split heading joins applied: 5
+- Consecutive duplicate headings collapsed: 39
+- Heading runs retained in this locator: 153
+- Page markers found: 0
+
+## Agent Notes
+
+- This locator is Markdown-line-based rather than TeX-line-based.
+- Consecutive repeated slide titles are collapsed into single locator runs so slide decks do not drown retrieval in duplicate headings.
+- Adjacent heading fragments are joined when the second line is clearly a continuation of the first, which helps with slide titles split across multiple heading lines.
+- Regenerate this file with `python3 tools/build_markdown_locator.py 'sources/B4_Nuclear_Slides_(Wilkinson).mineru_api.md'` after future source updates.

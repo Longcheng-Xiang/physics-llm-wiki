@@ -1,0 +1,409 @@
+# Source Locator: B4 Nuclear and Particle (Wascko)
+
+**Primary Markdown:** `sources/B4_Nuclear_and_Particle.mineru_api.md`
+**Source PDF:** `lecture_notes_pdf/B4_Nuclear_and_Particle.pdf`
+**Optional user notes:** `<USER_TUTORIAL_ORDER_NOTES>`, `<USER_TUTORIAL_NOTES>` (not included; opt-in note-layer rules still apply)
+
+## How To Use
+
+1. Start from the relevant source map or physics topic.
+2. Use the quick routing and heading index below to jump to the exact Markdown line range for the matching heading run.
+3. If separately supplied, read the optional user notes in parallel when you need ordering, shorthand decoding, or a cleaner derivation than the slide text alone provides.
+4. Reopen the live PDF only for layout-dependent figures or if the Markdown extraction is locally unclear.
+
+## Quick Routing
+
+Major heading runs. Consecutive duplicate slide titles are collapsed into a single line-range entry.
+
+- `md 1-8` | B4 Nuclear and Particle (Wascko) — MinerU Precision API Markdown
+- `md 11-20` | B4 Subatomic Physics
+- `md 21-81` | Contents
+- `md 82-101` | 5 Lecture 05: Further cross sections 30
+- `md 102-107` | 6 Lecture 06: Feynman Diagrams 36
+- `md 108-114` | 7 Lecture 07: Symmetries and conservation laws 39
+- `md 115-119` | 8 Lecture 08: Quantum electrodynamics 42
+- `md 120-128` | 9 Lecture 09: QED 2 44
+- `md 129-136` | 10 Lecture 10: The Strong force: QCD 47
+- `md 137-142` | 11 Lecture 11: Strong force 2: mesons 50
+- `md 143-147` | 12 Lecture 12: Baryons 53
+- `md 148-153` | 13 Lecture 13: electron-positron annihilation 56
+- `md 154-167` | 14 Lecture 14: Weak force 1 60
+- `md 168-177` | 15 Lecture 15: Weak force 2 66
+- `md 178-181` | 16 Lecture 16: Weak force: quark and lepton mixing 72
+- `md 182-187` | 17 Lecture 17: Weak force 4 78
+- `md 188-207` | 18 Lecture 18: Nuclear models 1 80
+- `md 208-219` | 19 Lecture 19: Nuclear models 2 86
+- `md 220-231` | 20 Lecture 20: Gamma and Beta decays 93
+- `md 232-241` | 21 Lecture 21: Alpha decay 98
+- `md 242-251` | 22 Lecture 22: Nuclear Fission 1 102
+- `md 252-259` | 23 Lecture 23:Nuclear fission 2 106
+- `md 260-271` | 24 Lecture 24: Nuclear fusion 110
+- `md 272-273` | Organisational matters
+- `md 274-293` | 0.1 Syllabus
+- `md 333-334` | 1 Lecture 01: Introduction to Particles: Matter and Force Carriers
+- `md 341-366` | 1.1 Overview
+- `md 367-372` | The Standard Model as a quantum field theory
+- `md 373-396` | 1.2 The Force Particles
+- `md 397-426` | 1.3 The Matter Particles
+- `md 427-442` | 1.4 Antimatter
+- `md 443-450` | 1.5 Composite Particles and Hadrons
+- `md 451-458` | 1.6 The Higgs Particle
+- `md 459-462` | 1.7 Symmetry principles
+- `md 463-478` | 1.8 Nuclei
+- `md 483-490` | 1.9 Beyond the Standard Model
+- `md 491-492` | 2 Lecture 02: Fermi’s Golden Rule, Decays and Resonances
+- `md 503-549` | 2.1 Fermi’s golden rule
+- `md 550-629` | 2.2 Decays
+- `md 630-666` | 2.2.1 Beyond the Syllabus: Ion Chambers
+- `md 667-770` | 2.2.2 Resonances and widths
+- `md 771-790` | 2.3 Units
+- `md 791-792` | 3 Lecture 03: Relativity and Antiparticles
+- `md 805-824` | 3.1 Basic definitions
+- `md 825-846` | 3.2 4-vectors
+- `md 847-920` | 3.3 Lorentz transformation and invariants
+- `md 921-934` | 3.3.1 Example: decaying particle
+- `md 935-1002` | 3.4 Beyond the Syllabus: Scintillation
+- `md 1003-1034` | 3.5 Relativistic kinematics
+- `md 1035-1046` | Example: head-on collision
+- `md 1069-1092` | Example: simple two-body decay
+- `md 1093-1102` | 3.6 Negative energy states and antiparticles
+- `md 1103-1153` | 3.6.1 Positive and Negative Energies
+- `md 1154-1174` | 3.6.2 Entry and Exit States
+- `md 1175-1200` | 3.6.3 Energy Transfer Example
+- `md 1201-1216` | 3.6.4 Pair Processes
+- `md 1217-1226` | 3.7 Conservation vs invariance
+- `md 1227-1256` | 3.8 Mandelstam variables
+- `md 1257-1258` | 4 Lecture 04: Scattering cross sections
+- `md 1265-1297` | 4.1 Refresher on collisional cross sections
+- `md 1298-1329` | 4.2 Cross sections in particle and nuclear physics
+- `md 1330-1402` | 4.2.1 Dimensional Analysis of Cross Sections
+- `md 1403-1486` | 4.2.2 Differential cross sections
+- `md 1487-1510` | 4.3 Cross sections in colliders
+- `md 1511-1544` | 4.3.1 Collider Rate Check
+- `md 1545-1592` | 4.4 Examples
+- `md 1593-1594` | 5 Lecture 05: Further cross sections
+- `md 1603-1619` | 5.1 Example: Recipe for calculating a cross section
+- `md 1620-1639` | 5.1.1 Normalization of the wavefunction
+- `md 1640-1647` | 5.1.2 Transfer matrix element
+- `md 1648-1663` | 5.1.3 Incident beam flux
+- `md 1666-1709` | 5.1.4 Density of final states
+- `md 1710-1729` | 5.1.5 Compiling the final recipe
+- `md 1730-1733` | 5.2 Scattering of particles by nuclei: Rutherford scattering
+- `md 1734-1806` | 5.2.1 Classical view of Rutherford scattering
+- `md 1807-1862` | 5.2.2 Quantum view of Rutherford scattering
+- `md 1863-1884` | 5.3 Form Factor
+- `md 1885-1900` | 5.3.1 Scattering of Electrons by Nuclei
+- `md 1901-1934` | 5.3.2 Beyond the Syllabus: The Rutherford Scattering Experiment
+- `md 1935-1936` | 6 Lecture 06: Feynman Diagrams
+- `md 1947-1954` | 6.1 Introduction
+- `md 1955-1990` | 6.2 Basic QED vertex
+- `md 1991-2028` | 6.3 Rotating vertices
+- `md 2029-2030` | 7 Lecture 07: Symmetries and conservation laws
+- `md 2039-2048` | 7.1 Symmetry in particle physics
+- `md 2049-2078` | 7.2 Spin
+- `md 2079-2100` | 7.3 Parity and Charge Conjugation
+- `md 2101-2132` | 7.4 Range of a force
+- `md 2165-2166` | 8 Lecture 08: Quantum electrodynamics
+- `md 2179-2242` | 8.1 Bound States
+- `md 2243-2270` | 8.2 Decays
+- `md 2271-2272` | 9 Lecture 09: QED 2
+- `md 2281-2284` | 9.1 Reactions
+- `md 2285-2304` | 9.1.1 Scattering
+- `md 2305-2356` | 9.1.2 Annihilation
+- `md 2357-2456` | 9.2 Electron-Positron Scattering
+- `md 2457-2458` | 10 Lecture 10: The Strong force: QCD
+- `md 2469-2498` | 10.1 Gluons
+- `md 2499-2504` | 10.2 Colours
+- `md 2505-2543` | 10.3 Self Interactions: Confinement and Asymptotic Freedom
+- `md 2544-2591` | 10.4 Colour combinations
+- `md 2592-2597` | 10.5 Sanity Check: Gauge Invariance
+- `md 2598-2599` | 11 Lecture 11: Strong force 2: mesons
+- `md 2610-2647` | 11.1 Meson masses
+- `md 2692-2699` | 11.2 Meson Decays: Excited State Decays
+- `md 2700-2733` | 11.3 Heavy quarks
+- `md 2734-2735` | 12 Lecture 12: Baryons
+- `md 2744-2822` | 12.1 Counting Spin
+- `md 2823-2856` | 12.2 Baryon masses
+- `md 2857-2858` | 13 Lecture 13: electron-positron annihilation
+- `md 2865-2910` | 13.1 Electron-Positron Annihilation into Quarks
+- `md 2911-2942` | 13.2 Higher order effects – gluon radiation
+- `md 2943-2971` | 13.3 Hadronisation
+- `md 2972-3046` | effects:
+- `md 3047-3048` | 14 Lecture 14: Weak force 1
+- `md 3059-3098` | 14.1 The Weak Force Bosons
+- `md 3135-3140` | 14.2 Lepton Number Conservation
+- `md 3141-3154` | 14.3 Muon Decay
+- `md 3155-3222` | 14.3.1 Decay width and lifetime
+- `md 3223-3226` | 14.3.2 Decay length
+- `md 3227-3322` | 14.4 Tau Decay
+- `md 3323-3324` | 15 Lecture 15: Weak force 2
+- `md 3333-3429` | 15.1 Parity and Charge Conjugation
+- `md 3430-3500` | 15.2 Charged Pion Decay
+- `md 3501-3534` | 15.3 Charged Kaon Decay
+- `md 3535-3602` | 15.4 Charm Meson Decays: the CKM Matrix
+- `md 3623-3624` | 16 Lecture 16: Weak force: quark and lepton mixing
+- `md 3633-3690` | 16.1 Mixing and oscillations
+- `md 3691-3805` | 6.8.1 Neutral kaon mixing
+- `md 3806-3853` | 6.8.2 Neutrino mixing
+- `md 3854-3984` | 6.8.3 Two-neutrino Mixing
+- `md 3985-3986` | 17 Lecture 17: Weak force 4
+- `md 3993-4050` | 17.1 W and Z Bosons and EW Unification
+- `md 4051-4060` | 17.2 Higgs
+- `md 4061-4062` | 18 Lecture 18: Nuclear models 1
+- `md 4081-4100` | 18.1 Nuclei
+- `md 4101-4106` | 18.2 Nucleon Forces
+- `md 4125-4188` | 18.3 Simple Nuclei
+- `md 4189-4214` | 18.4 The Liquid Drop Model
+- `md 4215-4218` | 18.5 The Semi-Empirical Mass Formula (SEMF)
+- `md 4219-4240` | 18.5.1 Coulomb repulsion
+- `md 4241-4298` | 18.5.2 Asymmetry term
+- `md 4299-4314` | 18.5.3 Pairing term
+- `md 4315-4324` | 18.5.4 Overall SEMF
+- `md 4325-4326` | 19 Lecture 19: Nuclear models 2
+- `md 4335-4458` | 19.1 The Beta-Stability Curve
+- `md 4459-4462` | 19.2 The Shell Model
+- `md 4463-4474` | 19.3 Magic Numbers
+- `md 4475-4556` | 19.4 Nuclear Potentials
+- `md 4557-4562` | 19.5 Beyond the syllabus: spin-orbit coupling
+- `md 4670-4671` | 20 Lecture 20: Gamma and Beta decays
+- `md 4682-4728` | 20.1 Gamma Decay
+- `md 4729-4770` | 20.2 Beta Decay
+- `md 4771-4849` | 20.3 Odd-A nuclei
+- `md 4850-4861` | 20.4 Even-A nuclei
+- `md 4862-4905` | 20.5 Neutrino Masses
+- `md 4906-4907` | 21 Lecture 21: Alpha decay
+- `md 4916-4941` | 21.1 Alpha Decay
+- `md 4942-4980` | 21.2 Alpha Decay Chains
+- `md 4981-5067` | 21.3 Alpha Decay Rates
+- `md 5084-5122` | 21.4 Deriving the Gamow factor
+- `md 5123-5124` | 22 Lecture 22: Nuclear Fission 1
+- `md 5135-5170` | 22.1 Fission Energetics
+- `md 5171-5438` | 22.2 Spontaneous Fission
+- `md 5439-5476` | 22.3 Induced Fission
+- `md 5477-5514` | 22.4 Chain Reactions
+- `md 5515-5516` | 23 Lecture 23:Nuclear fission 2
+- `md 5525-5591` | 23.1 Uranium Fission
+- `md 5592-5630` | 23.2 Fission Reactors
+- `md 5631-5669` | 23.3 The Fission Atomic Bomb
+- `md 5670-5671` | 24 Lecture 24: Nuclear fusion
+- `md 5678-5722` | 24.1 Overview
+- `md 5725-5736` | 24.2 Coulomb Barrier
+- `md 5737-5784` | 24.3 Helium
+- `md 5785-5820` | 24.4 Fusion Reactors
+- `md 5821-5824` | 24.5 Nucleosynthesis
+- `md 5825-5850` | 24.6 Big Bang nucleosynthesis
+- `md 5851-5894` | 24.7 Stellar nucleosynthesis
+- `md 5895-5925` | 24.8 Heavier nuclei
+- `md 5926-5949` | 24.9 The Hydrogen Bomb
+
+## Heading Index
+
+- level `h1` | md `1-8` | B4 Nuclear and Particle (Wascko) — MinerU Precision API Markdown
+- level `h2` | md `9-10` | Chunk: pages 001-010
+- level `h1` | md `11-20` | B4 Subatomic Physics
+- level `h1` | md `21-81` | Contents
+- level `h1` | md `82-101` | 5 Lecture 05: Further cross sections 30
+- level `h1` | md `102-107` | 6 Lecture 06: Feynman Diagrams 36
+- level `h1` | md `108-114` | 7 Lecture 07: Symmetries and conservation laws 39
+- level `h1` | md `115-119` | 8 Lecture 08: Quantum electrodynamics 42
+- level `h1` | md `120-128` | 9 Lecture 09: QED 2 44
+- level `h1` | md `129-136` | 10 Lecture 10: The Strong force: QCD 47
+- level `h1` | md `137-142` | 11 Lecture 11: Strong force 2: mesons 50
+- level `h1` | md `143-147` | 12 Lecture 12: Baryons 53
+- level `h1` | md `148-153` | 13 Lecture 13: electron-positron annihilation 56
+- level `h1` | md `154-167` | 14 Lecture 14: Weak force 1 60
+- level `h1` | md `168-177` | 15 Lecture 15: Weak force 2 66
+- level `h1` | md `178-181` | 16 Lecture 16: Weak force: quark and lepton mixing 72
+- level `h1` | md `182-187` | 17 Lecture 17: Weak force 4 78
+- level `h1` | md `188-207` | 18 Lecture 18: Nuclear models 1 80
+- level `h1` | md `208-219` | 19 Lecture 19: Nuclear models 2 86
+- level `h1` | md `220-231` | 20 Lecture 20: Gamma and Beta decays 93
+- level `h1` | md `232-241` | 21 Lecture 21: Alpha decay 98
+- level `h1` | md `242-251` | 22 Lecture 22: Nuclear Fission 1 102
+- level `h1` | md `252-259` | 23 Lecture 23:Nuclear fission 2 106
+- level `h1` | md `260-271` | 24 Lecture 24: Nuclear fusion 110
+- level `h1` | md `272-273` | Organisational matters
+- level `h1` | md `274-293` | 0.1 Syllabus
+- level `h1` | md `333-334` | 1 Lecture 01: Introduction to Particles: Matter and Force Carriers
+- level `h1` | md `341-366` | 1.1 Overview
+- level `h1` | md `367-372` | The Standard Model as a quantum field theory
+- level `h1` | md `373-396` | 1.2 The Force Particles
+- level `h1` | md `397-426` | 1.3 The Matter Particles
+- level `h1` | md `427-442` | 1.4 Antimatter
+- level `h1` | md `443-450` | 1.5 Composite Particles and Hadrons
+- level `h1` | md `451-458` | 1.6 The Higgs Particle
+- level `h1` | md `459-462` | 1.7 Symmetry principles
+- level `h1` | md `463-478` | 1.8 Nuclei
+- level `h2` | md `479-482` | Chunk: pages 011-020
+- level `h1` | md `483-490` | 1.9 Beyond the Standard Model
+- level `h1` | md `491-492` | 2 Lecture 02: Fermi’s Golden Rule, Decays and Resonances
+- level `h1` | md `503-549` | 2.1 Fermi’s golden rule
+- level `h1` | md `550-629` | 2.2 Decays
+- level `h1` | md `630-666` | 2.2.1 Beyond the Syllabus: Ion Chambers
+- level `h1` | md `667-770` | 2.2.2 Resonances and widths
+- level `h1` | md `771-790` | 2.3 Units
+- level `h1` | md `791-792` | 3 Lecture 03: Relativity and Antiparticles
+- level `h1` | md `805-824` | 3.1 Basic definitions
+- level `h1` | md `825-846` | 3.2 4-vectors
+- level `h1` | md `847-920` | 3.3 Lorentz transformation and invariants
+- level `h1` | md `921-934` | 3.3.1 Example: decaying particle
+- level `h1` | md `935-1002` | 3.4 Beyond the Syllabus: Scintillation
+- level `h1` | md `1003-1034` | 3.5 Relativistic kinematics
+- level `h1` | md `1035-1046` | Example: head-on collision
+- level `h2` | md `1047-1068` | Chunk: pages 021-030
+- level `h1` | md `1069-1092` | Example: simple two-body decay
+- level `h1` | md `1093-1102` | 3.6 Negative energy states and antiparticles
+- level `h1` | md `1103-1153` | 3.6.1 Positive and Negative Energies
+- level `h1` | md `1154-1174` | 3.6.2 Entry and Exit States
+- level `h1` | md `1175-1200` | 3.6.3 Energy Transfer Example
+- level `h1` | md `1201-1216` | 3.6.4 Pair Processes
+- level `h1` | md `1217-1226` | 3.7 Conservation vs invariance
+- level `h1` | md `1227-1256` | 3.8 Mandelstam variables
+- level `h1` | md `1257-1258` | 4 Lecture 04: Scattering cross sections
+- level `h1` | md `1265-1297` | 4.1 Refresher on collisional cross sections
+- level `h1` | md `1298-1329` | 4.2 Cross sections in particle and nuclear physics
+- level `h1` | md `1330-1402` | 4.2.1 Dimensional Analysis of Cross Sections
+- level `h1` | md `1403-1486` | 4.2.2 Differential cross sections
+- level `h1` | md `1487-1510` | 4.3 Cross sections in colliders
+- level `h1` | md `1511-1544` | 4.3.1 Collider Rate Check
+- level `h1` | md `1545-1592` | 4.4 Examples
+- level `h1` | md `1593-1594` | 5 Lecture 05: Further cross sections
+- level `h1` | md `1603-1619` | 5.1 Example: Recipe for calculating a cross section
+- level `h1` | md `1620-1639` | 5.1.1 Normalization of the wavefunction
+- level `h1` | md `1640-1647` | 5.1.2 Transfer matrix element
+- level `h1` | md `1648-1663` | 5.1.3 Incident beam flux
+- level `h2` | md `1664-1665` | Chunk: pages 031-040
+- level `h1` | md `1666-1709` | 5.1.4 Density of final states
+- level `h1` | md `1710-1729` | 5.1.5 Compiling the final recipe
+- level `h1` | md `1730-1733` | 5.2 Scattering of particles by nuclei: Rutherford scattering
+- level `h1` | md `1734-1806` | 5.2.1 Classical view of Rutherford scattering
+- level `h1` | md `1807-1862` | 5.2.2 Quantum view of Rutherford scattering
+- level `h1` | md `1863-1884` | 5.3 Form Factor
+- level `h1` | md `1885-1900` | 5.3.1 Scattering of Electrons by Nuclei
+- level `h1` | md `1901-1934` | 5.3.2 Beyond the Syllabus: The Rutherford Scattering Experiment
+- level `h1` | md `1935-1936` | 6 Lecture 06: Feynman Diagrams
+- level `h1` | md `1947-1954` | 6.1 Introduction
+- level `h1` | md `1955-1990` | 6.2 Basic QED vertex
+- level `h1` | md `1991-2028` | 6.3 Rotating vertices
+- level `h1` | md `2029-2030` | 7 Lecture 07: Symmetries and conservation laws
+- level `h1` | md `2039-2048` | 7.1 Symmetry in particle physics
+- level `h1` | md `2049-2078` | 7.2 Spin
+- level `h1` | md `2079-2100` | 7.3 Parity and Charge Conjugation
+- level `h1` | md `2101-2132` | 7.4 Range of a force
+- level `h2` | md `2133-2164` | Chunk: pages 041-050
+- level `h1` | md `2165-2166` | 8 Lecture 08: Quantum electrodynamics
+- level `h1` | md `2179-2242` | 8.1 Bound States
+- level `h1` | md `2243-2270` | 8.2 Decays
+- level `h1` | md `2271-2272` | 9 Lecture 09: QED 2
+- level `h1` | md `2281-2284` | 9.1 Reactions
+- level `h1` | md `2285-2304` | 9.1.1 Scattering
+- level `h1` | md `2305-2356` | 9.1.2 Annihilation
+- level `h1` | md `2357-2456` | 9.2 Electron-Positron Scattering
+- level `h1` | md `2457-2458` | 10 Lecture 10: The Strong force: QCD
+- level `h1` | md `2469-2498` | 10.1 Gluons
+- level `h1` | md `2499-2504` | 10.2 Colours
+- level `h1` | md `2505-2543` | 10.3 Self Interactions: Confinement and Asymptotic Freedom
+- level `h1` | md `2544-2591` | 10.4 Colour combinations
+- level `h1` | md `2592-2597` | 10.5 Sanity Check: Gauge Invariance
+- level `h1` | md `2598-2599` | 11 Lecture 11: Strong force 2: mesons
+- level `h1` | md `2610-2647` | 11.1 Meson masses
+- level `h2` | md `2648-2691` | Chunk: pages 051-060
+- level `h1` | md `2692-2699` | 11.2 Meson Decays: Excited State Decays
+- level `h1` | md `2700-2733` | 11.3 Heavy quarks
+- level `h1` | md `2734-2735` | 12 Lecture 12: Baryons
+- level `h1` | md `2744-2822` | 12.1 Counting Spin
+- level `h1` | md `2823-2856` | 12.2 Baryon masses
+- level `h1` | md `2857-2858` | 13 Lecture 13: electron-positron annihilation
+- level `h1` | md `2865-2910` | 13.1 Electron-Positron Annihilation into Quarks
+- level `h1` | md `2911-2942` | 13.2 Higher order effects – gluon radiation
+- level `h1` | md `2943-2971` | 13.3 Hadronisation
+- level `h1` | md `2972-3046` | effects:
+- level `h1` | md `3047-3048` | 14 Lecture 14: Weak force 1
+- level `h1` | md `3059-3098` | 14.1 The Weak Force Bosons
+- level `h2` | md `3099-3134` | Chunk: pages 061-070
+- level `h1` | md `3135-3140` | 14.2 Lepton Number Conservation
+- level `h1` | md `3141-3154` | 14.3 Muon Decay
+- level `h1` | md `3155-3222` | 14.3.1 Decay width and lifetime
+- level `h1` | md `3223-3226` | 14.3.2 Decay length
+- level `h1` | md `3227-3322` | 14.4 Tau Decay
+- level `h1` | md `3323-3324` | 15 Lecture 15: Weak force 2
+- level `h1` | md `3333-3429` | 15.1 Parity and Charge Conjugation
+- level `h1` | md `3430-3500` | 15.2 Charged Pion Decay
+- level `h1` | md `3501-3534` | 15.3 Charged Kaon Decay
+- level `h1` | md `3535-3602` | 15.4 Charm Meson Decays: the CKM Matrix
+- level `h2` | md `3603-3622` | Chunk: pages 071-080
+- level `h1` | md `3623-3624` | 16 Lecture 16: Weak force: quark and lepton mixing
+- level `h1` | md `3633-3690` | 16.1 Mixing and oscillations
+- level `h1` | md `3691-3805` | 6.8.1 Neutral kaon mixing
+- level `h1` | md `3806-3853` | 6.8.2 Neutrino mixing
+- level `h1` | md `3854-3984` | 6.8.3 Two-neutrino Mixing
+- level `h1` | md `3985-3986` | 17 Lecture 17: Weak force 4
+- level `h1` | md `3993-4050` | 17.1 W and Z Bosons and EW Unification
+- level `h1` | md `4051-4060` | 17.2 Higgs
+- level `h1` | md `4061-4062` | 18 Lecture 18: Nuclear models 1
+- level `h1` | md `4081-4100` | 18.1 Nuclei
+- level `h1` | md `4101-4106` | 18.2 Nucleon Forces
+- level `h2` | md `4107-4124` | Chunk: pages 081-090
+- level `h1` | md `4125-4188` | 18.3 Simple Nuclei
+- level `h1` | md `4189-4214` | 18.4 The Liquid Drop Model
+- level `h1` | md `4215-4218` | 18.5 The Semi-Empirical Mass Formula (SEMF)
+- level `h1` | md `4219-4240` | 18.5.1 Coulomb repulsion
+- level `h1` | md `4241-4298` | 18.5.2 Asymmetry term
+- level `h1` | md `4299-4314` | 18.5.3 Pairing term
+- level `h1` | md `4315-4324` | 18.5.4 Overall SEMF
+- level `h1` | md `4325-4326` | 19 Lecture 19: Nuclear models 2
+- level `h1` | md `4335-4458` | 19.1 The Beta-Stability Curve
+- level `h1` | md `4459-4462` | 19.2 The Shell Model
+- level `h1` | md `4463-4474` | 19.3 Magic Numbers
+- level `h1` | md `4475-4556` | 19.4 Nuclear Potentials
+- level `h1` | md `4557-4562` | 19.5 Beyond the syllabus: spin-orbit coupling
+- level `h2` | md `4563-4669` | Chunk: pages 091-100
+- level `h1` | md `4670-4671` | 20 Lecture 20: Gamma and Beta decays
+- level `h1` | md `4682-4728` | 20.1 Gamma Decay
+- level `h1` | md `4729-4770` | 20.2 Beta Decay
+- level `h1` | md `4771-4849` | 20.3 Odd-A nuclei
+- level `h1` | md `4850-4861` | 20.4 Even-A nuclei
+- level `h1` | md `4862-4905` | 20.5 Neutrino Masses
+- level `h1` | md `4906-4907` | 21 Lecture 21: Alpha decay
+- level `h1` | md `4916-4941` | 21.1 Alpha Decay
+- level `h1` | md `4942-4980` | 21.2 Alpha Decay Chains
+- level `h1` | md `4981-5067` | 21.3 Alpha Decay Rates
+- level `h2` | md `5068-5083` | Chunk: pages 101-110
+- level `h1` | md `5084-5122` | 21.4 Deriving the Gamow factor
+- level `h1` | md `5123-5124` | 22 Lecture 22: Nuclear Fission 1
+- level `h1` | md `5135-5170` | 22.1 Fission Energetics
+- level `h1` | md `5171-5438` | 22.2 Spontaneous Fission
+- level `h1` | md `5439-5476` | 22.3 Induced Fission
+- level `h1` | md `5477-5514` | 22.4 Chain Reactions
+- level `h1` | md `5515-5516` | 23 Lecture 23:Nuclear fission 2
+- level `h1` | md `5525-5591` | 23.1 Uranium Fission
+- level `h1` | md `5592-5630` | 23.2 Fission Reactors
+- level `h1` | md `5631-5669` | 23.3 The Fission Atomic Bomb
+- level `h1` | md `5670-5671` | 24 Lecture 24: Nuclear fusion
+- level `h1` | md `5678-5722` | 24.1 Overview
+- level `h2` | md `5723-5724` | Chunk: pages 111-116
+- level `h1` | md `5725-5736` | 24.2 Coulomb Barrier
+- level `h1` | md `5737-5784` | 24.3 Helium
+- level `h1` | md `5785-5820` | 24.4 Fusion Reactors
+- level `h1` | md `5821-5824` | 24.5 Nucleosynthesis
+- level `h1` | md `5825-5850` | 24.6 Big Bang nucleosynthesis
+- level `h1` | md `5851-5894` | 24.7 Stellar nucleosynthesis
+- level `h1` | md `5895-5925` | 24.8 Heavier nuclei
+- level `h1` | md `5926-5949` | 24.9 The Hydrogen Bomb
+
+## Build Report
+
+- Markdown line count: 5949
+- Raw heading lines found: 217
+- Effective headings after split-heading joins: 217
+- Split heading joins applied: 0
+- Consecutive duplicate headings collapsed: 0
+- Heading runs retained in this locator: 192
+- Page markers found: 0
+
+## Agent Notes
+
+- This locator is Markdown-line-based rather than TeX-line-based.
+- Consecutive repeated slide titles are collapsed into single locator runs so slide decks do not drown retrieval in duplicate headings.
+- Adjacent heading fragments are joined when the second line is clearly a continuation of the first, which helps with slide titles split across multiple heading lines.
+- Regenerate this file with `python3 tools/build_markdown_locator.py 'sources/B4_Nuclear_and_Particle.mineru_api.md'` after future source updates.

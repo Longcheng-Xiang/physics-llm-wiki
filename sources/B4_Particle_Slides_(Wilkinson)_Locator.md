@@ -1,0 +1,371 @@
+# Source Locator: B4 Particle Slides (Wilkinson)
+
+**Primary Markdown:** `sources/B4_Particle_Slides_(Wilkinson).mineru_api.md`
+**Source PDF:** `lecture_notes_pdf/B4_Particle_Slides_(Wilkinson).pdf`
+**Optional user notes:** `<USER_TUTORIAL_ORDER_NOTES>` (default user-note layer), `<USER_TUTORIAL_NOTES>` (opt-in only; neither is included)
+
+## How To Use
+
+1. Start from the relevant source map or physics topic.
+2. Use the quick routing and heading index below to jump to the exact Markdown line range for the matching slide-title run.
+3. If separately supplied, use `<USER_TUTORIAL_ORDER_NOTES>` as the default user-note layer. Use `<USER_TUTORIAL_NOTES>` only when the user explicitly includes tutorials.
+4. Reopen the live PDF only for layout-dependent figures or if the Markdown extraction is locally unclear.
+
+## Quick Routing
+
+Major heading runs. Consecutive duplicate slide titles are collapsed into a single line-range entry.
+
+- `md 1-8` | Nuclear and particle physics
+- `md 9-10` | Particle physics
+- `md 11-12` | Particle physics: topic overview
+- `md 13-35` | Introduction
+- `md 36-37` | Final words
+- `md 38-39` | Particle physics: topic overview
+- `md 40-45` | Introduction
+- `md 46-49` | Standard Model of Particle Physics
+- `md 50-58` | Interactions described by the Standard Model:
+- `md 59-67` | • Strong interaction
+- `md 68-76` | Particle content of the Standard Model
+- `md 77-82` | We don’t know:
+- `md 83-94` | Particle content of the Standard Model
+- `md 95-118` | Unanswered questions in the Standard Model
+- `md 119-120` | Particle physics: topic overview
+- `md 121-126` | Introduction
+- `md 127-172` | A word about natural units
+- `md 173-174` | Particle physics: topic overview
+- `md 175-180` | Introduction
+- `md 181-201` | Feynman diagrams
+- `md 202-219` | Dramatis personae
+- `md 220-239` | Remarks on arrows
+- `md 240-259` | Allowed vertices involving fermions
+- `md 260-269` | Allowed vertices involving bosons alone
+- `md 270-329` | Rotated vertices, scattering and annihilation
+- `md 330-344` | Higher-order diagrams
+- `md 345-352` | The power of higher-order diagrams: the top mass
+- `md 353-362` | Quark-flow diagrams
+- `md 363-394` | An example calculation: ??+??− → ??+??
+- `md 395-416` | An example calculation: ??+??− → ??+??−
+- `md 417-440` | A final remark on propagators
+- `md 441-442` | Particle physics: topic overview
+- `md 443-450` | Hadrons, quarks & the strong interaction
+- `md 451-472` | The hadron zoo
+- `md 473-494` | Strangeness
+- `md 495-508` | Isospin
+- `md 509-534` | Isospin and nucleon-nucleon scattering
+- `md 535-556` | Spin and parity
+- `md 557-594` | Intrinsic and total parity
+- `md 595-613` | The Δ resonances
+- `md 614-673` | Calculating pion-nucleon scattering with isospin
+- `md 674-675` | Particle physics: topic overview
+- `md 676-683` | Hadrons, quarks & the strong interaction
+- `md 684-708` | The eightfold way and the quark model
+- `md 709-784` | The pseudoscalar meson nonet
+- `md 785-801` | Other remarks on the properties of the pseudoscalar mesons:
+- `md 802-831` | Pseudoscalar meson decays
+- `md 832-848` | The vector meson nonet
+- `md 849-870` | Vector meson decays
+- `md 871-914` | Hyperfine interactions and the hadron masses
+- `md 915-926` | The baryon octet
+- `md 927-934` | The (incomplete) baryon decuplet
+- `md 935-944` | The discovery of the Ω- baryon
+- `md 945-957` | OBSERVATION OF A HYPERON WITH STRANGENESS MINUS THREE
+- `md 958-963` | The baryon decuplet
+- `md 964-965` | Particle physics: topic overview
+- `md 966-973` | Hadrons, quarks & the strong interaction
+- `md 974-995` | The need for colour
+- `md 996-1019` | Colour and colour requirements on hadrons
+- `md 1020-1028` | Tetraquarks and pentaquarks
+- `md 1029-1044` | Quantum Chromodynamics (QCD)
+- `md 1045-1050` | Energy variation (‘running’) of ????
+- `md 1051-1073` | Asymptotic freedom and confinement
+- `md 1074-1089` | QCD potential
+- `md 1090-1097` | Confinement at work
+- `md 1098-1119` | Gluons
+- `md 1120-1133` | The discovery of the gluon
+- `md 1134-1143` | The nucleon revisited
+- `md 1144-1145` | Particle physics: topic overview
+- `md 1146-1153` | Hadrons, quarks & the strong interaction
+- `md 1154-1167` | The status of the quark model prior to 1974
+- `md 1168-1191` | The November revolution: the ??/??
+- `md 1192-1205` | 50 Years istovery of
+- `md 1206-1239` | Local organizers
+- `md 1240-1241` | 09:00→ 12:00 Morning Session Chair: Yifang Wang (IHEP)
+- `md 1242-1245` | 09:00
+- `md 1246-1249` | 09:10
+- `md 1250-1253` | 10:00
+- `md 1254-1257` | 10:30
+- `md 1258-1263` | 11:00
+- `md 1264-1267` | 11:30
+- `md 1268-1281` | 50 Year Discovery of
+- `md 1282-1317` | Local organizers
+- `md 1318-1319` | 09:00→ 12:00 Morning Session Chair: Yifang Wang (IHEP)
+- `md 1320-1325` | 09:00
+- `md 1326-1329` | 09:10
+- `md 1330-1333` | 10:00
+- `md 1334-1337` | 10:30
+- `md 1338-1343` | 11:00
+- `md 1344-1347` | 11:30
+- `md 1348-1359` | Quarkonia: the ??/??, the ??′ and the ??′′
+- `md 1360-1375` | Making sense of charmonia
+- `md 1376-1383` | Charmonia decays
+- `md 1384-1403` | Zweig (OZI) suppression
+- `md 1404-1419` | More quarkonia: the discovery of the b quark
+- `md 1420-1435` | Discovery of the top quark
+- `md 1436-1437` | Particle physics: topic overview
+- `md 1438-1445` | Hadrons, quarks & the strong interaction
+- `md 1446-1499` | R ratio in ??+??− interactions
+- `md 1500-1501` | Particle physics: topic overview
+- `md 1502-1510` | Leptons and the weak interaction
+- `md 1511-1540` | Weak interactions of leptons
+- `md 1541-1542` | Particle physics: topic overview
+- `md 1543-1551` | Leptons and the weak interaction
+- `md 1552-1563` | Fermi theory revisited: muon decay
+- `md 1564-1584` | Fermi theory revisited: tau decay
+- `md 1585-1598` | Fermi theory revisited: inverse β decay
+- `md 1599-1678` | Inverse β decay
+- `md 1679-1684` | Discovery of the (electron) neutrino
+- `md 1685-1686` | SCIENCE
+- `md 1687-1718` | Detection of the Free Neutrino: a Confirmation
+- `md 1719-1756` | Discovery of the muon and tau neutrinos
+- `md 1757-1774` | High-energy neutrino-nucleon scattering
+- `md 1775-1784` | Neutrino-nucleon scattering event in MINOS
+- `md 1785-1846` | High-energy neutrino-nucleon scattering
+- `md 1847-1854` | Measured cross sections for $\cdot$ + ?? → ??− + hadrons
+- `md 1855-1866` | High energy neutrino-nucleon scattering: take-home messages
+- `md 1867-1868` | Particle physics: topic overview
+- `md 1869-1877` | Leptons and the weak interaction
+- `md 1878-1921` | Beyond Fermi theory
+- `md 1922-1940` | Electroweak theory
+- `md 1941-1954` | Weak neutral currents
+- `md 1955-1970` | Discovery of weak neutral currents
+- `md 1971-2032` | OBSERVATION OF NEUTRINO-LIKE INTERACTIONS WITHOUT MUON OR ELECTRON IN THE GARGAMELLE NEUTRINO EXPERIMENT
+- `md 2033-2054` | Discovery of weak neutral currents
+- `md 2055-2072` | Last word (for now) on neutrinos
+- `md 2073-2088` | Decays of leptons and hadrons as viewed in electroweak theory
+- `md 2089-2090` | Particle physics: topic overview
+- `md 2091-2099` | Leptons and the weak interaction
+- `md 2100-2110` | Inter-generation hadronic decays
+- `md 2111-2124` | Strange baryon (‘hyperon’) transition rates
+- `md 2125-2142` | Cabibbo mixing
+- `md 2143-2154` | ???? ഥ??′ vertices with Cabibbo factors
+- `md 2155-2186` | Calculating relative decay rates with Cabibbo factors
+- `md 2187-2214` | The GIM mechanism
+- `md 2215-2233` | The CKM matrix
+- `md 2234-2251` | The CKM matrix: a puzzling hierarchy
+- `md 2252-2253` | Particle physics: topic overview
+- `md 2254-2262` | Leptons and the weak interaction
+- `md 2263-2296` | Parity violation
+- `md 2297-2322` | Parity violation in 60Co decay
+- `md 2323-2342` | Parity violation in 60Co decay: a closer look
+- `md 2343-2366` | Helicity and the weak interaction
+- `md 2367-2370` | Isador Rabi:
+- `md 2371-2388` | L.D. Landau:
+- `md 2389-2430` | Parity violation and decay rates
+- `md 2431-2432` | Particle physics: topic overview
+- `md 2433-2441` | Leptons and the weak interaction
+- `md 2442-2473` | The hunt for the ?? and ?? bosons
+- `md 2474-2481` | ?? discovery
+- `md 2482-2495` | EXPERIMENTAL OBSERVATION OF ISOLATED LARGE TRANSVERSE ENERGY ELECTRONS WITH ASSOCIATED MISSING ENERGY AT $\sqrt { s } = 5 4 0 \mathrm { G e V }$
+- `md 2496-2510` | OBSERVATION OF SINGLE ISOLATED ELECTRONS OF HIGH TRANSVERSE MOMENTUMIN EVENTS WITH MISSING TRANSVERSE ENERGY AT THE CERN pp COLLIDER
+- `md 2511-2522` | Someone who knew, well before the announcement
+- `md 2523-2550` | EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH
+- `md 2551-2558` | ?? discovery
+- `md 2559-2566` | Precise studies of the ?? and ?? in ??+??− collisions
+- `md 2567-2574` | LEP: the Large Electron Positron collider
+- `md 2575-2588` | The ??0 resonance
+- `md 2589-2603` | Understanding ??CM
+- `md 2604-2635` | Number of neutrino generations
+- `md 2636-2647` | Particle physics: final words
+- `md 2648-2668` | Unanswered questions in the Standard Model
+- `md 2669-2681` | Intriguing hints
+- `md 2682-2683` | Near-term experimental prospects
+- `md 2684-2692` | Over the coming years experimental prospects are very exciting:
+- `md 2693-2704` | The longer term
+- `md 2705-2709` | PHYSICISTS
+
+## Heading Index
+
+- level `h1` | md `1-8` | Nuclear and particle physics
+- level `h1` | md `9-10` | Particle physics
+- level `h1` | md `11-12` | Particle physics: topic overview
+- level `h1` | md `13-35` | Introduction
+- level `h1` | md `36-37` | Final words
+- level `h1` | md `38-39` | Particle physics: topic overview
+- level `h1` | md `40-45` | Introduction
+- level `h1` | md `46-49` | Standard Model of Particle Physics
+- level `h1` | md `50-58` | Interactions described by the Standard Model:
+- level `h1` | md `59-67` | • Strong interaction
+- level `h1` | md `68-76` | Particle content of the Standard Model
+- level `h1` | md `77-82` | We don’t know:
+- level `h1` | md `83-94` | repeat-run `2` | Particle content of the Standard Model
+- level `h1` | md `95-118` | Unanswered questions in the Standard Model
+- level `h1` | md `119-120` | Particle physics: topic overview
+- level `h1` | md `121-126` | Introduction
+- level `h1` | md `127-172` | A word about natural units
+- level `h1` | md `173-174` | Particle physics: topic overview
+- level `h1` | md `175-180` | Introduction
+- level `h1` | md `181-201` | repeat-run `2` | Feynman diagrams
+- level `h1` | md `202-219` | Dramatis personae
+- level `h1` | md `220-239` | Remarks on arrows
+- level `h1` | md `240-259` | Allowed vertices involving fermions
+- level `h1` | md `260-269` | Allowed vertices involving bosons alone
+- level `h1` | md `270-329` | repeat-run `3` | Rotated vertices, scattering and annihilation
+- level `h1` | md `330-344` | repeat-run `2` | Higher-order diagrams
+- level `h1` | md `345-352` | The power of higher-order diagrams: the top mass
+- level `h1` | md `353-362` | Quark-flow diagrams
+- level `h1` | md `363-394` | repeat-run `2` | An example calculation: ??+??− → ??+??
+- level `h1` | md `395-416` | An example calculation: ??+??− → ??+??−
+- level `h1` | md `417-440` | A final remark on propagators
+- level `h1` | md `441-442` | Particle physics: topic overview
+- level `h1` | md `443-450` | Hadrons, quarks & the strong interaction
+- level `h1` | md `451-472` | The hadron zoo
+- level `h1` | md `473-494` | Strangeness
+- level `h1` | md `495-508` | Isospin
+- level `h1` | md `509-534` | repeat-run `2` | Isospin and nucleon-nucleon scattering
+- level `h1` | md `535-556` | Spin and parity
+- level `h1` | md `557-594` | repeat-run `2` | Intrinsic and total parity
+- level `h1` | md `595-613` | The Δ resonances
+- level `h1` | md `614-673` | repeat-run `3` | Calculating pion-nucleon scattering with isospin
+- level `h1` | md `674-675` | Particle physics: topic overview
+- level `h1` | md `676-683` | Hadrons, quarks & the strong interaction
+- level `h1` | md `684-708` | repeat-run `2` | The eightfold way and the quark model
+- level `h1` | md `709-784` | repeat-run `7` | The pseudoscalar meson nonet
+- level `h1` | md `785-801` | Other remarks on the properties of the pseudoscalar mesons:
+- level `h1` | md `802-831` | Pseudoscalar meson decays
+- level `h1` | md `832-848` | repeat-run `2` | The vector meson nonet
+- level `h1` | md `849-870` | Vector meson decays
+- level `h1` | md `871-914` | repeat-run `2` | Hyperfine interactions and the hadron masses
+- level `h1` | md `915-926` | The baryon octet
+- level `h1` | md `927-934` | The (incomplete) baryon decuplet
+- level `h1` | md `935-944` | The discovery of the Ω- baryon
+- level `h1` | md `945-957` | OBSERVATION OF A HYPERON WITH STRANGENESS MINUS THREE
+- level `h1` | md `958-963` | The baryon decuplet
+- level `h1` | md `964-965` | Particle physics: topic overview
+- level `h1` | md `966-973` | Hadrons, quarks & the strong interaction
+- level `h1` | md `974-995` | The need for colour
+- level `h1` | md `996-1019` | Colour and colour requirements on hadrons
+- level `h1` | md `1020-1028` | Tetraquarks and pentaquarks
+- level `h1` | md `1029-1044` | Quantum Chromodynamics (QCD)
+- level `h1` | md `1045-1050` | Energy variation (‘running’) of ????
+- level `h1` | md `1051-1073` | Asymptotic freedom and confinement
+- level `h1` | md `1074-1089` | QCD potential
+- level `h1` | md `1090-1097` | Confinement at work
+- level `h1` | md `1098-1119` | Gluons
+- level `h1` | md `1120-1133` | The discovery of the gluon
+- level `h1` | md `1134-1143` | The nucleon revisited
+- level `h1` | md `1144-1145` | Particle physics: topic overview
+- level `h1` | md `1146-1153` | Hadrons, quarks & the strong interaction
+- level `h1` | md `1154-1167` | The status of the quark model prior to 1974
+- level `h1` | md `1168-1191` | The November revolution: the ??/??
+- level `h1` | md `1192-1205` | 50 Years istovery of
+- level `h1` | md `1206-1239` | Local organizers
+- level `h1` | md `1240-1241` | 09:00→ 12:00 Morning Session Chair: Yifang Wang (IHEP)
+- level `h1` | md `1242-1245` | 09:00
+- level `h1` | md `1246-1249` | 09:10
+- level `h1` | md `1250-1253` | 10:00
+- level `h1` | md `1254-1257` | 10:30
+- level `h1` | md `1258-1263` | 11:00
+- level `h1` | md `1264-1267` | 11:30
+- level `h1` | md `1268-1281` | 50 Year Discovery of
+- level `h1` | md `1282-1317` | Local organizers
+- level `h1` | md `1318-1319` | 09:00→ 12:00 Morning Session Chair: Yifang Wang (IHEP)
+- level `h1` | md `1320-1325` | 09:00
+- level `h1` | md `1326-1329` | 09:10
+- level `h1` | md `1330-1333` | 10:00
+- level `h1` | md `1334-1337` | 10:30
+- level `h1` | md `1338-1343` | 11:00
+- level `h1` | md `1344-1347` | 11:30
+- level `h1` | md `1348-1359` | Quarkonia: the ??/??, the ??′ and the ??′′
+- level `h1` | md `1360-1375` | repeat-run `2` | Making sense of charmonia
+- level `h1` | md `1376-1383` | Charmonia decays
+- level `h1` | md `1384-1403` | repeat-run `2` | Zweig (OZI) suppression
+- level `h1` | md `1404-1419` | More quarkonia: the discovery of the b quark
+- level `h1` | md `1420-1435` | Discovery of the top quark
+- level `h1` | md `1436-1437` | Particle physics: topic overview
+- level `h1` | md `1438-1445` | Hadrons, quarks & the strong interaction
+- level `h1` | md `1446-1499` | repeat-run `4` | R ratio in ??+??− interactions
+- level `h1` | md `1500-1501` | Particle physics: topic overview
+- level `h1` | md `1502-1510` | Leptons and the weak interaction
+- level `h1` | md `1511-1540` | Weak interactions of leptons
+- level `h1` | md `1541-1542` | Particle physics: topic overview
+- level `h1` | md `1543-1551` | Leptons and the weak interaction
+- level `h1` | md `1552-1563` | Fermi theory revisited: muon decay
+- level `h1` | md `1564-1584` | Fermi theory revisited: tau decay
+- level `h1` | md `1585-1598` | Fermi theory revisited: inverse β decay
+- level `h1` | md `1599-1678` | repeat-run `3` | Inverse β decay
+- level `h1` | md `1679-1684` | Discovery of the (electron) neutrino
+- level `h1` | md `1685-1686` | SCIENCE
+- level `h1` | md `1687-1718` | Detection of the Free Neutrino: a Confirmation
+- level `h1` | md `1719-1756` | Discovery of the muon and tau neutrinos
+- level `h1` | md `1757-1774` | High-energy neutrino-nucleon scattering
+- level `h1` | md `1775-1784` | Neutrino-nucleon scattering event in MINOS
+- level `h1` | md `1785-1846` | repeat-run `2` | High-energy neutrino-nucleon scattering
+- level `h1` | md `1847-1854` | Measured cross sections for $\cdot$ + ?? → ??− + hadrons
+- level `h1` | md `1855-1866` | High energy neutrino-nucleon scattering: take-home messages
+- level `h1` | md `1867-1868` | Particle physics: topic overview
+- level `h1` | md `1869-1877` | Leptons and the weak interaction
+- level `h1` | md `1878-1921` | repeat-run `2` | Beyond Fermi theory
+- level `h1` | md `1922-1940` | Electroweak theory
+- level `h1` | md `1941-1954` | Weak neutral currents
+- level `h1` | md `1955-1970` | Discovery of weak neutral currents
+- level `h1` | md `1971-2032` | OBSERVATION OF NEUTRINO-LIKE INTERACTIONS WITHOUT MUON OR ELECTRON IN THE GARGAMELLE NEUTRINO EXPERIMENT
+- level `h1` | md `2033-2054` | repeat-run `2` | Discovery of weak neutral currents
+- level `h1` | md `2055-2072` | Last word (for now) on neutrinos
+- level `h1` | md `2073-2088` | Decays of leptons and hadrons as viewed in electroweak theory
+- level `h1` | md `2089-2090` | Particle physics: topic overview
+- level `h1` | md `2091-2099` | Leptons and the weak interaction
+- level `h1` | md `2100-2110` | Inter-generation hadronic decays
+- level `h1` | md `2111-2124` | Strange baryon (‘hyperon’) transition rates
+- level `h1` | md `2125-2142` | Cabibbo mixing
+- level `h1` | md `2143-2154` | ???? ഥ??′ vertices with Cabibbo factors
+- level `h1` | md `2155-2186` | Calculating relative decay rates with Cabibbo factors
+- level `h1` | md `2187-2214` | repeat-run `2` | The GIM mechanism
+- level `h1` | md `2215-2233` | The CKM matrix
+- level `h1` | md `2234-2251` | The CKM matrix: a puzzling hierarchy
+- level `h1` | md `2252-2253` | Particle physics: topic overview
+- level `h1` | md `2254-2262` | Leptons and the weak interaction
+- level `h1` | md `2263-2296` | Parity violation
+- level `h1` | md `2297-2322` | repeat-run `2` | Parity violation in 60Co decay
+- level `h1` | md `2323-2342` | Parity violation in 60Co decay: a closer look
+- level `h1` | md `2343-2366` | Helicity and the weak interaction
+- level `h1` | md `2367-2370` | Isador Rabi:
+- level `h1` | md `2371-2388` | L.D. Landau:
+- level `h1` | md `2389-2430` | repeat-run `2` | Parity violation and decay rates
+- level `h1` | md `2431-2432` | Particle physics: topic overview
+- level `h1` | md `2433-2441` | Leptons and the weak interaction
+- level `h1` | md `2442-2473` | repeat-run `2` | The hunt for the ?? and ?? bosons
+- level `h1` | md `2474-2481` | ?? discovery
+- level `h1` | md `2482-2495` | EXPERIMENTAL OBSERVATION OF ISOLATED LARGE TRANSVERSE ENERGY ELECTRONS WITH ASSOCIATED MISSING ENERGY AT $\sqrt { s } = 5 4 0 \mathrm { G e V }$
+- level `h1` | md `2496-2510` | OBSERVATION OF SINGLE ISOLATED ELECTRONS OF HIGH TRANSVERSE MOMENTUMIN EVENTS WITH MISSING TRANSVERSE ENERGY AT THE CERN pp COLLIDER
+- level `h1` | md `2511-2522` | Someone who knew, well before the announcement
+- level `h1` | md `2523-2550` | EUROPEAN ORGANIZATION FOR NUCLEAR RESEARCH
+- level `h1` | md `2551-2558` | ?? discovery
+- level `h1` | md `2559-2566` | Precise studies of the ?? and ?? in ??+??− collisions
+- level `h1` | md `2567-2574` | LEP: the Large Electron Positron collider
+- level `h1` | md `2575-2588` | The ??0 resonance
+- level `h1` | md `2589-2603` | Understanding ??CM
+- level `h1` | md `2604-2635` | Number of neutrino generations
+- level `h1` | md `2636-2647` | Particle physics: final words
+- level `h1` | md `2648-2668` | Unanswered questions in the Standard Model
+- level `h1` | md `2669-2681` | Intriguing hints
+- level `h1` | md `2682-2683` | Near-term experimental prospects
+- level `h1` | md `2684-2692` | Over the coming years experimental prospects are very exciting:
+- level `h1` | md `2693-2704` | The longer term
+- level `h1` | md `2705-2709` | PHYSICISTS
+
+## Build Report
+
+- Markdown line count: 2709
+- Raw heading lines found: 200
+- Effective headings after split-heading joins: 200
+- Split heading joins applied: 0
+- Consecutive duplicate headings collapsed: 33
+- Heading runs in final locator: 167
+- Page markers found: 0
+
+## Agent Notes
+
+- This locator is Markdown-line-based rather than TeX-line-based.
+- Consecutive repeated slide titles are collapsed into single locator runs so slide decks do not drown retrieval in duplicate headings.
+- Adjacent heading fragments are joined when the second line is clearly a continuation of the first, which helps with slide titles split across multiple heading lines.
+- Regenerate this file with `python3 tools/build_markdown_locator.py 'sources/B4_Particle_Slides_(Wilkinson).mineru_api.md'` after future source updates.
