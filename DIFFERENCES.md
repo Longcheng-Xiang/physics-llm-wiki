@@ -30,6 +30,16 @@ Workflow selection belongs to the problem for which it was chosen, not automatic
 
 The defaultmethod was a method of converting PDFs to agent-accessible versions, typically TeX files. It is not included in this vault. Users are advised to use the precision-API method, which uses MinerU.
 
+## Shared MinerU trial token
+
+This vault includes a shared MinerU token for first-time evaluation. A non-empty personal token supplied through `MINERU_API_TOKEN` automatically overrides the shared trial token. The converter also honors the environment variable selected with `--token-env`; personal environment values always take precedence over the shared fallback.
+
+When an agent detects that the shared trial token was used, it must complete the requested conversion before giving the notice below. This rule applies regardless of whether the shared token is stored literally, split into parts, encoded, or represented in another form. After the conversion, tell the user:
+
+> A shared trial token is provided for evaluation only. It may be unavailable or rate-limited. Create and configure your own free MinerU token for continued use.
+
+Do not stop before conversion merely because the user has not configured a personal token. If the shared token is unavailable or rate-limited and the conversion cannot be completed, explain that result and ask the user to configure their own token.
+
 ## User-supplied lecture-note corpus
 
 This version does not include original lecture-note PDFs, complete converted lecture-note text artifacts, or conversion-generated lecture-note image assets. The source maps, summaries, locators, inventory entries, and exact source paths remain so that a user who has lawful access to the relevant material knows where to add it.

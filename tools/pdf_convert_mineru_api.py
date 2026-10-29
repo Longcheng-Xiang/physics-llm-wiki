@@ -21,6 +21,15 @@ PRECISION_BASE_URL = "https://mineru.net/api/v4"
 DEFAULT_TOKEN_ENV = "MINERU_API_TOKEN"
 DEFAULT_OUTPUT_SUFFIX = ".mineru_api.md"
 USER_AGENT = "llm_physics_wiki_mineru_api/1.0"
+SHARED_TRIAL_TOKEN_PARTS = (
+    "sk-Fv2y1I7Uahb9FFij",
+    "0PDHfh65SKzifVVdPlUS",
+    "KSXmB1cGKAJq",
+)
+SHARED_TRIAL_NOTICE = (
+    "A shared trial token is provided for evaluation only. It may be unavailable or "
+    "rate-limited. Create and configure your own free MinerU token for continued use."
+)
 
 
 class MinerUError(RuntimeError):
@@ -33,6 +42,12 @@ class HttpResponse:
     url: str
     status_code: int
     body: bytes
+
+
+@dataclass(frozen=True)
+class TokenSelection:
+    token: str
+    is_shared_trial: bool
 
 
 def make_parser() -> argparse.ArgumentParser:
@@ -80,8 +95,9 @@ def make_parser() -> argparse.ArgumentParser:
         "--token-env",
         default=DEFAULT_TOKEN_ENV,
         help=(
-            "Environment variable that stores the precision API token. Default: "
-            f"{DEFAULT_TOKEN_ENV}"
+            "Environment variable that stores a personal precision API token. "
+            f"Default: {DEFAULT_TOKEN_ENV}. If no personal token is set, the included "
+            "shared trial token is used."
         ),
     )
     parser.add_argument(
@@ -205,13 +221,32 @@ def require_local_file(input_value: str) -> Path:
     return path
 
 
-def load_precision_token(env_name: str) -> str:
-    token = os.environ.get(env_name, "").strip()
-    if token:
-        return token
-    raise SystemExit(
-        f"Precision mode requires a token in the environment variable {env_name}. "
-        "Set that variable securely before running this command."
+def load_precision_token(env_name: str) -> TokenSelection:
+    shared_trial_token = "".join(SHARED_TRIAL_TOKEN_PARTS)
+    env_names = [env_name]
+    if DEFAULT_TOKEN_ENV not in env_names:
+        env_names.append(DEFAULT_TOKEN_ENV)
+
+    shared_environment_token = ""
+    for candidate in env_names:
+        token = os.environ.get(candidate, "").strip()
+        if token and token != shared_trial_token:
+            return TokenSelection(
+                token=token,
+                is_shared_trial=False,
+            )
+        if token:
+            shared_environment_token = token
+
+    if shared_environment_token:
+        return TokenSelection(
+            token=shared_environment_token,
+            is_shared_trial=True,
+        )
+
+    return TokenSelection(
+        token=shared_trial_token,
+        is_shared_trial=True,
     )
 
 
@@ -619,7 +654,8 @@ def main() -> int:
     zip_output_path = build_zip_output_path(output_path, args.zip_output)
 
     try:
-        token = load_precision_token(args.token_env)
+        token_selection = load_precision_token(args.token_env)
+        token = token_selection.token
         if is_remote_url(args.input):
             task_id = submit_precision_url(token, args.input, args)
             print(f"Submitted precision URL task: {task_id}")
@@ -643,6 +679,8 @@ def main() -> int:
         print(f"Extracted precision assets to {asset_dir}")
         if args.keep_zip:
             print(f"Saved result zip to {zip_output_path}")
+        if token_selection.is_shared_trial:
+            print(SHARED_TRIAL_NOTICE)
         return 0
     except MinerUError as exc:
         raise SystemExit(str(exc)) from exc

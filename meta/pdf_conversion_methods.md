@@ -16,11 +16,13 @@ Before conversion, move the PDF to its canonical vault location. Lecture notes b
 
 - Python 3.10 or newer. The converter uses only the Python standard library.
 - `curl` is optional. When available, it is tried first for local-file uploads and downloads; otherwise the converter uses Python's HTTP support.
-- A MinerU API token belonging to the user.
+- A personal MinerU API token is recommended for continued use. The converter includes a shared trial token for first-time evaluation.
 
 ### Token handling
 
-Provide the MinerU credential through the `MINERU_API_TOKEN` environment variable, configured through the user's shell, operating-system credential tooling, or preferred secret manager. The converter does not read a token from any file in this repository. Never commit the token or place it in commands, logs, notes, or conversation output.
+Provide a personal MinerU credential through the `MINERU_API_TOKEN` environment variable, configured through the user's shell, operating-system credential tooling, or preferred secret manager. Any non-empty personal environment value overrides the shared trial token automatically. If no personal token is set, the converter uses the included shared token and prints the required trial notice after a successful conversion.
+
+Never commit a personal token or place it in commands, logs, notes, or conversation output. The deliberately included shared trial credential is the only repository-token exception. Agents must follow the post-use reporting rule in `DIFFERENCES.md` whenever that shared token is used.
 
 ### Standard commands
 
