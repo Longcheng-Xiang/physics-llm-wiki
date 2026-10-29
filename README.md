@@ -1,6 +1,6 @@
 # Physics LLM Wiki
 
-Current vault release: **1.0.0**
+Current vault release: **1.0.1**
 
 This is an LLM wiki for physics. It currently supports Oxford's third-year physics courses, but its structural design makes it easy to extend to a wider range of subjects and contexts. It is designed to produce more visually presentable answers than typical LLM chatbots while grounding those answers more closely in sources specified by the user.
 
