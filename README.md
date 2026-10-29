@@ -20,6 +20,8 @@ Original software and content in this repository are available for non-commercia
 
 ## Installing the Wiki Viewer
 
+**If you already use Obsidian, you do not need to install the wiki viewer.**
+
 ### macOS
 
 The macOS viewer supports Apple Silicon Macs running macOS 11 or later.
