@@ -2,7 +2,7 @@
 
 Current vault release: **1.0.1**
 
-This is an LLM wiki for physics. It currently supports Oxford's third-year physics courses, but its structural design makes it easy to extend to a wider range of subjects and contexts. It is designed to produce more visually presentable answers than typical LLM chatbots while grounding those answers more closely in sources specified by the user. From raw source documents, the system creates both agent-accessible versions and locators. When a question is asked, an AI agent can use those locators to retrieve relevant material efficiently and provide a transparent record of the sources used and the steps taken.
+This is an LLM wiki for physics. It currently supports Oxford's third-year physics courses, but its structural design makes it easy to extend to a wider range of subjects and contexts. It is designed to produce more visually presentable answers than frontier LLM chatbots while grounding those answers more closely in sources specified by the user. From raw source documents, the system creates both agent-accessible versions and locators. When a question is asked, an AI agent can use those locators to retrieve relevant material efficiently and provide a transparent record of the sources used and the steps taken.
 
 The wiki also contains carefully designed workflows for producing diagrams, identifying mistakes in handwritten work, controlling answer format, handling follow-up questions, and ensuring that important instructions and relevant source material are read when needed. These functions are not described in full here for brevity. The easiest way to get started is to download or clone this repository and begin using it with an AI agent.
 
