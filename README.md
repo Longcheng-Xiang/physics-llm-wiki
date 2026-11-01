@@ -6,7 +6,7 @@ This is an LLM wiki for physics. It currently supports Oxford's third-year physi
 
 The wiki also contains carefully designed workflows for producing diagrams, identifying mistakes in handwritten work, controlling answer format, handling follow-up questions, and ensuring that important instructions and relevant source material are read when needed. These functions are not described in full here for brevity. The easiest way to get started is to download or clone this repository and begin using it with an AI agent.
 
-To see examples of the question-and-answer documents produced by the wiki, read the [B3 Atomic Problems worked examples](questions_and_answers/problem_sets/B3_Atomic_Problems_Questions_and_Answers.md), together with the accompanying workflow logs and source extracts in the same folder.
+To see examples of the question-and-answer documents produced by the wiki, read the [B3 Atomic Problems worked examples](https://github.com/Longcheng-Xiang/physics-llm-wiki/blob/main/questions_and_answers/problem_sets/B3_Atomic_Problems_Questions_and_Answers.md), together with the accompanying workflow logs and source extracts in the same folder. (Some mathematical notation may not render correctly in GitHub’s Markdown preview.)
 
 ## Supplying Lecture Notes
 
